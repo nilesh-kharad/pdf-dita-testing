@@ -1,0 +1,71 @@
+{
+  "job_id": "1fb48b8d-474a-4261-9aac-baa888ee0b2a",
+  "output_dir": "C:/Users/Metapercept/Desktop/Nilesh/New-MetR/metR-Converter-PDF/storage/1fb48b8d-474a-4261-9aac-baa888ee0b2a/pre-xslt-output",
+  "run_at": "2026-07-14T04:25:04.062106+00:00",
+  "files_discovered": {
+    "dita_file_count": 1,
+    "dita_files": [
+      "airpodspro3info.dita"
+    ],
+    "ditamap_file_count": 1,
+    "ditamap_files": [
+      "airpodspro3info.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "user guide",
+    "document_keywords": [
+      "user guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "airpodspro3info.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    }
+  ],
+  "summary": {
+    "dita_file_count": 1,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 1,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_xml_lang": 1
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "airpodspro3info.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 1,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  }
+}

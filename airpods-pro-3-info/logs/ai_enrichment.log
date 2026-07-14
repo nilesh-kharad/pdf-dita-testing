@@ -1,0 +1,137 @@
+2026-07-14 09:54:59,155 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY not set — heuristic fallbacks will be used.
+2026-07-14 09:54:59,242 [INFO] pipeline.enrich_runner: =================================================================
+2026-07-14 09:54:59,242 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = C:/Users/Metapercept/Desktop/Nilesh/New-MetR/metR-Converter-PDF/storage/1fb48b8d-474a-4261-9aac-baa888ee0b2a/pre-xslt-output
+2026-07-14 09:54:59,243 [INFO] pipeline.enrich_runner: [EnrichPipeline] job_id_req  = 1fb48b8d-474a-4261-9aac-baa888ee0b2a
+2026-07-14 09:54:59,244 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\output
+2026-07-14 09:54:59,245 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-07-14 09:54:59,245 [INFO] pipeline.enrich_runner: =================================================================
+2026-07-14 09:54:59,256 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\.tmp_backup_output
+2026-07-14 09:54:59,297 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 1 .dita files, 1 .ditamap files
+2026-07-14 09:54:59,302 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 1 DITA files
+2026-07-14 09:54:59,302 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-07-14 09:54:59,303 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 1
+2026-07-14 09:54:59,303 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] airpodspro3info.dita                               type=concept    shortdesc=YES prolog=NO 
+2026-07-14 09:54:59,303 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-07-14 09:54:59,349 [INFO] ai_utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-07-14 09:54:59,352 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-07-14 09:54:59,355 [INFO] ai_utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-07-14 09:54:59,358 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-07-14 09:54:59,360 [INFO] ai_utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-07-14 09:54:59,362 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'airpodspro3info.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-07-14 09:54:59,363 [INFO] ai_utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=1 | dita_files=1, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-07-14 09:54:59,363 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=1 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-07-14 09:54:59,404 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-07-14 09:54:59,458 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: airpodspro3info.dita — added xml:lang="en-us"
+2026-07-14 09:54:59,459 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] Complete — 1 fix(es) applied, 0 write failure(s)
+2026-07-14 09:54:59,460 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=1, write_failures=0
+2026-07-14 09:54:59,824 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-07-14 09:54:59,987 [INFO] ai_utils.document_context_extractor: [DocContext] extract_context_from_dita — 1 files found, stem='airpodspro3info'
+2026-07-14 09:54:59,988 [INFO] ai_utils.document_context_extractor: [DocContext] Extracting document-level context from: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\output\airpodspro3info.ditamap
+2026-07-14 09:54:59,989 [INFO] ai_utils.document_context_extractor: [DocContext] Aggregated content from 1 files
+2026-07-14 09:55:00,120 [WARNING] ai_utils.document_context_extractor: [DocContext] AI extraction failed: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-07-14 09:55:00,121 [INFO] ai_utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-07-14 09:55:00,123 [INFO] ai_utils.document_context_extractor: [DocContext] Skipping 'User Avoid Hearing' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-07-14 09:55:00,124 [INFO] ai_utils.document_context_extractor: [DocContext] Heuristic task_type: 'user guide'
+2026-07-14 09:55:00,124 [INFO] ai_utils.document_context_extractor: [DocContext] Final context: {'prodname': 'airpodspro3info', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'user guide', 'document_keywords': ['user guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-07-14 09:55:00,124 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'airpodspro3info' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-07-14 09:55:00,125 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='user guide', method=heuristic, confidence=0.00
+2026-07-14 09:55:00,125 [INFO] ai_utils.core_log_parser: [CoreLogParser] transformation.log not found at: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\transformation.log
+2026-07-14 09:55:00,127 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Conversion Summary ──────────────────────────────
+2026-07-14 09:55:00,127 [INFO] pipeline.enrich_runner: [ConversionSummary] transformation.log not found — AI running standalone
+2026-07-14 09:55:00,127 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-07-14 09:55:00,128 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-07-14 09:55:00,128 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── XSLT Pre-clean ──
+2026-07-14 09:55:00,205 [INFO] ai_utils.xslt_runner: [XSLT] table.xsl found — will chain before doc-type XSLT
+2026-07-14 09:55:00,205 [INFO] ai_utils.xslt_runner: [XSLT] fix_p_warning_to_note.xsl found
+2026-07-14 09:55:00,205 [INFO] ai_utils.xslt_runner: [XSLT] fix_consecutive_p_to_list.xsl found
+2026-07-14 09:55:00,206 [INFO] ai_utils.xslt_runner: [XSLT] Loaded task → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_p_warning_to_note.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_consecutive_p_to_list.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\table.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\task.xsl
+2026-07-14 09:55:00,206 [INFO] ai_utils.xslt_runner: [XSLT] Loaded concept → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_p_warning_to_note.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_consecutive_p_to_list.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\table.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\concept.xsl
+2026-07-14 09:55:00,207 [INFO] ai_utils.xslt_runner: [XSLT] Loaded reference → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_p_warning_to_note.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_consecutive_p_to_list.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\table.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\reference.xsl
+2026-07-14 09:55:00,207 [INFO] ai_utils.xslt_runner: [XSLT] Loaded map → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\map.xsl
+2026-07-14 09:55:00,207 [INFO] ai_utils.xslt_runner: [XSLT] Loaded bookmap → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\bookmap.xsl
+2026-07-14 09:55:00,208 [INFO] ai_utils.xslt_runner: [XSLT] Loaded glossentry → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_p_warning_to_note.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_consecutive_p_to_list.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\table.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\glossentry.xsl
+2026-07-14 09:55:00,208 [INFO] ai_utils.xslt_runner: [XSLT] Loaded topic → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_p_warning_to_note.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\fix_consecutive_p_to_list.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\table.xsl → C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\dita_compliance\xslt\topic.xsl
+2026-07-14 09:55:00,286 [INFO] ai_utils.xslt_runner: [XSLT] .dita done — processed=1, modified=0, unchanged=1, failed=0
+2026-07-14 09:55:00,296 [INFO] ai_utils.xslt_runner: [XSLT] Fixed duplicate DOCTYPE in airpodspro3info.ditamap
+2026-07-14 09:55:00,296 [INFO] ai_utils.xslt_runner: [XSLT] Modified ditamap: airpodspro3info.ditamap [map]
+2026-07-14 09:55:00,297 [INFO] ai_utils.xslt_runner: [XSLT] .ditamap done — processed=1, modified=1, failed=0
+2026-07-14 09:55:00,297 [INFO] pipeline.enrich_runner: [EnrichPipeline] XSLT — status=completed, modified=0, failed=0
+2026-07-14 09:55:00,298 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\xslt_transform_report.json
+2026-07-14 09:55:00,455 [INFO] layers.layer1234_enrichment: L1234 › 'airpods-pro-3-info' airpodspro3info.dita | images=0
+2026-07-14 09:55:00,457 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-07-14 09:55:00,457 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'airpods-pro-3-info'
+2026-07-14 09:55:00,463 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-07-14 09:55:00,465 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc airpodspro3info.dita (replaced)
+2026-07-14 09:55:00,470 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-07-14 09:55:00,471 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog airpodspro3info.dita
+2026-07-14 09:55:00,478 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'airpods-pro-3-info' → type=concept, confidence=low
+2026-07-14 09:55:00,514 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 1 topics processed
+2026-07-14 09:55:00,575 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 0 of 1 topics had type changed by AI
+2026-07-14 09:55:00,576 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-07-14 09:55:00,576 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  airpodspro3info.dita                               type=concept    shortdesc='Before using AirPods, review the AirPods User Avoid Hearing Damage Gui…'
+2026-07-14 09:55:00,577 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['AirPods', 'apple', 'support', 'batteries', 'Guide', 'Apple'] | indexterms=['AirPods', 'apple', 'support']
+2026-07-14 09:55:00,578 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=0
+2026-07-14 09:55:00,578 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-07-14 09:55:00,796 [INFO] layers.layer5_quality_autofix: L5 › airpodspro3info.dita at C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\output\airpodspro3info.dita
+2026-07-14 09:55:00,798 [INFO] layers.layer5_quality_autofix: L5 › review 1/1 topics (0 skipped)
+2026-07-14 09:55:00,799 [WARNING] layers.layer5_quality_autofix: L5 ✗ review: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-07-14 09:55:00,800 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-07-14 09:55:00,849 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-07-14 09:55:00,911 [INFO] layers.layer5_quality_autofix: L5 › autofix: 0 broken
+2026-07-14 09:55:00,912 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-07-14 09:55:00,958 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-07-14 09:55:01,027 [INFO] layers.layer6_final_validation: L6 ── structural validation start
+2026-07-14 09:55:01,031 [INFO] layers.layer6_final_validation: L6 ⚠ airpodspro3info.dita — 1 issue(s)
+2026-07-14 09:55:01,031 [INFO] layers.layer6_final_validation: L6 ✓ done pass=True acc=100% crit=0 err=0 warn=1
+2026-07-14 09:55:01,032 [INFO] layers.layer6_final_validation: L6 DTD schema start
+2026-07-14 09:55:01,036 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    airpodspro3info.dita
+2026-07-14 09:55:01,037 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=1/1
+2026-07-14 09:55:01,037 [INFO] layers.layer6_final_validation: L6 DTD schema pass=True valid=1/1
+2026-07-14 09:55:01,038 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-07-14 09:55:01,144 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-07-14 09:55:01,175 [INFO] ai_utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-07-14 09:55:01,179 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-07-14 09:55:01,183 [INFO] ai_utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-07-14 09:55:01,185 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-07-14 09:55:01,187 [INFO] ai_utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-07-14 09:55:01,192 [INFO] ai_utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=0 | dita_files=1, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-07-14 09:55:01,192 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=0
+2026-07-14 09:55:01,232 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-07-14 09:55:01,305 [INFO] ai_utils.structure_validator: [EnrichmentQuality] Post-AI check — 0 issues in 1 files (CRITICAL=0, WARNING=0)
+2026-07-14 09:55:01,306 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=0 (checks: shortdesc, keywords, indexterms)
+2026-07-14 09:55:01,353 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=1, fixed_by_ai=0, remaining=0, ai_obligations_missed=0, new_by_ai=0
+2026-07-14 09:55:01,393 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Schematron 4-Gate Validation ──
+2026-07-14 09:55:03,693 [INFO] pipeline.enrich_runner: [Schematron] 1/2 — airpodspro3info.dita
+2026-07-14 09:55:03,851 [INFO] pipeline.enrich_runner: [Schematron] 2/2 — airpodspro3info.ditamap
+2026-07-14 09:55:03,909 [INFO] ai_utils.schematron_runner: [Schematron] Done — files=2, violations=3 (errors=3, warnings=0)
+2026-07-14 09:55:03,910 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron — status=completed, violations=3, files_affected=1
+2026-07-14 09:55:03,912 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\schematron_validation_report.json
+2026-07-14 09:55:03,972 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron fix pass 1/3 — 3 violation(s) remaining
+2026-07-14 09:55:04,011 [INFO] ai_utils.schematron_fixer: [SchematronFixer] Done — 0 file(s) fixed, 0 total fixes applied
+2026-07-14 09:55:04,012 [INFO] pipeline.enrich_runner: [EnrichPipeline] Schematron fix pass 1 — fixed 0 in 0 file(s)
+2026-07-14 09:55:04,014 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\schematron_fix_pass1.json
+2026-07-14 09:55:04,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] No deterministic fixes applied — stopping iteration
+2026-07-14 09:55:04,058 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\schematron_validation_report.json
+2026-07-14 09:55:04,061 [INFO] ai_utils.schematron_fixer: [ImagePlacement] Done — 0 file(s) updated, 0 total fix(es)
+2026-07-14 09:55:04,061 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — 0 file(s) updated, 0 fix(es)
+2026-07-14 09:55:04,063 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\_agent_report.json
+2026-07-14 09:55:04,064 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-07-14 09:55:04,395 [INFO] layers.layer7_fix_agent: L7/Suggest ── Started ──
+2026-07-14 09:55:04,396 [INFO] layers.layer7_fix_agent: L7/Suggest 4 issues (pre-dedup)
+2026-07-14 09:55:04,396 [INFO] layers.layer7_fix_agent: L7/Suggest 2 unique issues
+2026-07-14 09:55:04,396 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation airpodspro3info.dita
+2026-07-14 09:55:04,397 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname airpodspro3info.dita
+2026-07-14 09:55:04,398 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ 2 suggestions
+2026-07-14 09:55:04,399 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ saved 2 suggestions
+2026-07-14 09:55:04,399 [INFO] layers.layer7_fix_agent: L7/Suggest ── Done ──
+2026-07-14 09:55:04,399 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=2
+2026-07-14 09:55:04,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 0, 'ul': 7, 'table': 0, 'image': 0, 'crosslink': 0, 'hyperlink': 80, 'concept': 1, 'task': 0, 'reference': 0, 'topic': 0}
+2026-07-14 09:55:04,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\_agent_report.json
+2026-07-14 09:55:04,483 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\pre_enrichment.json
+2026-07-14 09:55:04,485 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports\post_enrichment.json
+2026-07-14 09:55:04,486 [INFO] pipeline.enrich_runner: =================================================================
+2026-07-14 09:55:04,487 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_enrichment.log
+2026-07-14 09:55:04,487 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : C:\Users\Metapercept\Desktop\Nilesh\New-MetR\metR-Converter-PDF\storage\1fb48b8d-474a-4261-9aac-baa888ee0b2a\logs\ai_reports
+2026-07-14 09:55:04,488 [INFO] pipeline.enrich_runner: =================================================================
+2026-07-14 09:55:04,618 [INFO] pipeline.enrich_runner: [EnrichPipeline] Unescape XSLT applied to 1 file(s)
+2026-07-14 09:55:04,620 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
