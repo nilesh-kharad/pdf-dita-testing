@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "files_fixed": 0,
+  "total_fixed": 0,
+  "file_results": [
+    {
+      "file": "airpodspro3info.dita",
+      "violations_in": 3,
+      "fixes_applied": 0,
+      "fix_types": [],
+      "warnings": [],
+      "inline_warnings": []
+    }
+  ]
+}

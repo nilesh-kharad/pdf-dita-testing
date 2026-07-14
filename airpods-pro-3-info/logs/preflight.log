@@ -1,0 +1,30 @@
+
+[2026-07-14 05:34:33 UTC]
+  ======================================================================
+  PRE-FLIGHT ANALYSIS
+  ======================================================================
+  Job ID               : 40138998-dc58-485f-9af3-cc73d78495c3
+  Source file          : airpods-pro-3-info.pdf
+  
+  Progress: Validating source files and document structure...
+
+[2026-07-14 05:34:34 UTC]
+  Progress: Checking styles, headings, tables, and content consistency...
+
+[2026-07-14 05:34:34 UTC]
+  Progress: Generating pre-flight analysis report...
+
+[2026-07-14 05:34:34 UTC]
+  Progress: Preparing files for transformation...
+  
+  ======================================================================
+  PRE-FLIGHT RESULTS
+  ======================================================================
+  Result               : ✓ PASSED
+  Total pages          : 12
+  Pages with text      : 10
+  Pages without text   : 10, 11
+  Total chars          : 14,901
+  Status               : Digital PDF detected
+  
+  SUCCESS: Pre-flight analysis completed successfully.

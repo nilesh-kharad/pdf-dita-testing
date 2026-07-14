@@ -1,0 +1,53 @@
+{
+  "job_id": "40138998-dc58-485f-9af3-cc73d78495c3",
+  "output_dir": "C:\\Users\\Metapercept\\Desktop\\Nilesh\\New-MetR\\metR-Converter-PDF\\storage\\40138998-dc58-485f-9af3-cc73d78495c3\\output",
+  "generated_at": "2026-07-14T05:35:23.119272+00:00",
+  "suggestions": [
+    {
+      "id": "fc2940bd-22db-41e8-ad5a-8a5f0e5195a2",
+      "file": "airpodspro3info.dita",
+      "line": null,
+      "severity": "ERROR",
+      "issue": "ERROR: 16 consecutive <p> elements found more than 5 . These should be converted into a <ul>/<li> structure. First <p>: \"Before using AirPods, review the AirPods User Avoid Hearing DamageGuide at support.apple.com/guide/airpods. Retain documentation for future reference.WARNING: To prevent possible hearing damage, do not listen at Safety and Handlinghigh volume levels for long periods. See \u201cSafety, handling, and support\u201d in the More information about sound AirPods User Guide. AirPods and the heart rate and hearing is available online at sensor are not medical devices.apple.com/sound and in \u201cImportant safety and handling information\u201d in Batteries and Chargingthe AirPods User Guide.AirPods and case batteries should only be repaired by a trained technician to Medical Device Interferenceavoid battery damage, which could cause AirPods and case contain magnets as well as overheating, fire, or injury. Batteries should components and/or radios that may interfere be recycled or disposed of separately from with medical devices. See \u201cImportant safety household waste and according to local and handling information\u201d in the AirPods environmental laws and guidelines. For User Guide.information about Apple lithium-ion batteries, go to apple.com/batteries. For information Choking Hazardabout charging, see \u201cImportant safety AirPods, case, and small parts included with and handling information\u201d in the AirPods AirPods may present a choking hazard or User Guide.cause other injury to small children. Keep them away from small children.\"",
+      "category": "dtd_violation",
+      "source": "schematron_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "ERROR: 16 consecutive <p> elements found more than 5 . These should be converted into a <ul>/<li> structure. First <p>: \"Before using AirPods, review the AirPods User Avoid Hearing DamageGuide at support.apple.com/guide/airpods. Retain documentation for future reference.WARNING: To prevent possible hearing damage, do not listen at Safety and Handlinghigh volume levels for long periods. See \u201cSafety, handling, and support\u201d in the More information about sound AirPods User Guide. AirPods and the heart rate and hearing is available online at sensor are not medical devices.apple.com/sound and in \u201cImportant safety and handling information\u201d in Batteries and Chargingthe AirPods User Guide.AirPods and case batteries should only be repaired by a trained technician to Medical Device Interferenceavoid battery damage, which could cause AirPods and case contain magnets as well as overheating, fire, or injury. Batteries should components and/or radios that may interfere be recycled or disposed of separately from with medical devices. See \u201cImportant safety household waste and according to local and handling information\u201d in the AirPods environmental laws and guidelines. For User Guide.information about Apple lithium-ion batteries, go to apple.com/batteries. For information Choking Hazardabout charging, see \u201cImportant safety AirPods, case, and small parts included with and handling information\u201d in the AirPods AirPods may present a choking hazard or User Guide.cause other injury to small children. Keep them away from small children.\".\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-07-14T05:35:23.116238+00:00"
+    },
+    {
+      "id": "f8e6be04-c944-4f36-b463-d9867cd6ab06",
+      "file": "airpodspro3info.dita",
+      "line": 20,
+      "severity": "WARNING",
+      "issue": "<prodname> is present but empty",
+      "category": "missing_prodname",
+      "source": "layer5_validation",
+      "context_lines": [
+        "        <keyword>Apple</keyword>",
+        "        <indexterm>AirPods</indexterm>",
+        "        <indexterm>apple</indexterm>",
+        "        <indexterm>support</indexterm>",
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <conbody>",
+        "      <p>",
+        "         <xref href=\"http://support.apple.com/guide/airpods\" scope=\"external\" format=\"html\">Before using AirPods, review the </xref>"
+      ],
+      "affected_lines": [],
+      "suggestion": "<prodname> is present but empty.\nAdd a `<prodname>` element inside `<prodinfo>` within the `<prolog>`.\nExample: `<prodinfo><prodname>Your Product Name</prodname></prodinfo>`",
+      "status": "pending",
+      "created_at": "2026-07-14T05:35:23.117497+00:00"
+    }
+  ],
+  "pending_count": 2,
+  "accepted_count": 0,
+  "edited_count": 0,
+  "dismissed_count": 0
+}

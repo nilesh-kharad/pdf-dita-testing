@@ -1,0 +1,71 @@
+
+[2026-07-14 05:34:36 UTC]
+  ======================================================================
+  TRANSFORMATION
+  ======================================================================
+  Job ID              : 40138998-dc58-485f-9af3-cc73d78495c3
+  Source PDF          : C:/Users/Metapercept/Desktop/Nilesh/New-MetR/metR-Converter-PDF/storage/40138998-dc58-485f-9af3-cc73d78495c3/upload/airpods-pro-3-info.pdf
+  
+  Progress: Source files received for transformation...
+  Progress: Mapping source content to DITA-compliant structures...
+
+[2026-07-14 05:34:47 UTC]
+  Progress: Building topic hierarchy and table of contents...
+  Progress: Creating DITA maps and topics...
+  Progress: Applying semantic DITA elements...
+  Progress: Processing lists, tables, and nested structures...
+  Progress: Generating image references...
+  Progress: Resolving internal and external cross-references...
+
+[2026-07-14 05:34:48 UTC]
+  Progress: Generating transformation report...
+  Progress: Preparing converted content for post flight...
+  
+  ======================================================================
+  TRANSFORMATION RESULTS
+  ======================================================================
+  TOC XML             : airpods-pro-3-info_toc.xml
+  Content XML         : airpods-pro-3-info_content.xml
+  DITA output dir     : C:/Users/Metapercept/Desktop/Nilesh/New-MetR/metR-Converter-PDF/storage/40138998-dc58-485f-9af3-cc73d78495c3/pre-xslt-output
+  Root map            : airpodspro3info.ditamap
+  
+  Topic Type Breakdown:
+    Concept           : 0
+    Task              : 0
+    Reference         : 0
+    Topic (generic)   : 0
+    Total topics      : 1
+  
+  Sub-maps generated  : 0
+  Files written       : 2
+  TOC source          : none
+  TOC entries         : 0
+  TOC pages excluded  : []
+  
+  SUCCESS: Content transformation completed successfully.
+
+[2026-07-14 05:34:51 UTC]
+  ----------------------------------------------------------------------
+  
+  concept
+  
+  (none)
+  
+  ----------------------------------------------------------------------
+  
+  task
+  
+  (none)
+  
+  ----------------------------------------------------------------------
+  
+  reference
+  
+  (none)
+  
+  ----------------------------------------------------------------------
+  
+  topic
+  
+  (none)
+  

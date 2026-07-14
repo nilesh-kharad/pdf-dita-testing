@@ -1,0 +1,43 @@
+{
+  "airpods-pro-3-info": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2094
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "AirPods",
+        "apple",
+        "support",
+        "batteries",
+        "Guide",
+        "Apple",
+        "Manual",
+        "airpods",
+        "Informationen",
+        "para",
+        "dispositivo",
+        "guide"
+      ],
+      "compact_excerpt": "airpods-pro-3-info Before using AirPods, review the AirPods User Avoid Hearing Damage Guide at support.apple.com/guide/airpods. Retain documentation for future reference. WARNING: To prevent possible Before using AirPods, review the AirPods User Avoid Hearing Damage Guide at support.apple.com/guide/airpods. Retain documentation for future reference. WARNING: To prevent possible hearing damage, do "
+    },
+    "classified_at": 1784007315.5118165
+  }
+}
