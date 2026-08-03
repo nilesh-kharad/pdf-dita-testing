@@ -1,0 +1,43 @@
+{
+  "COMMAND, CONTROL AND COORDINATION OF EMERGENCY RESCUE OPERATIONS ON THE OPEN LINE": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 36,
+        "concept_pattern_hits": 71,
+        "reference_pattern_hits": 12,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4475
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "shall",
+        "He",
+        "Station",
+        "duty",
+        "station",
+        "must",
+        "working",
+        "trains",
+        "time",
+        "staff",
+        "ensure",
+        "responsible"
+      ],
+      "compact_excerpt": "COMMAND, CONTROL AND COORDINATION OF EMERGENCY RESCUE OPERATIONS ON THE OPEN LINE placeholder placeholder GOVERNMENT OF INDIA MINISTRY OF RAILWAYS (RAILWAY BOARD) placeholder placeholder S.No. Chapters Page No. 1 Working of Stations 1-12 2 Working of Trains 13-14 3 Marshalling 15-18 4 Freight Operation 19-27 5 Preferential Schedule & Rationalization Order 28 6 Movement of ODC and Other Bulky Consi"
+    },
+    "classified_at": 1785754847.3029876
+  }
+}

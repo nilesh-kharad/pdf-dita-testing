@@ -1,0 +1,40 @@
+================================================================================
+ metR PDF DocMigrate — MIGRATION SUMMARY REPORT
+================================================================================
+
+Source File                : operating manual-traffic.pdf
+Converter                  : PDF
+Started                    : 2026-08-03 10:59:16 UTC
+Completed                  : 2026-08-03 11:00:45 UTC
+Duration                   : 00:01:29
+Overall Status             : SUCCESS WITH WARNINGS
+
+================================================================================
+STAGE RESULTS
+================================================================================
+
+Stage                     Status                  Warnings   Errors   Detail Log
+--------------------------------------------------------------------------------
+Upload                    SUCCESS                 0          0        upload.log
+Pre-flight                WARNING                 3          0        preflight.log
+Transformation            SUCCESS                 0          0        transformation.log
+Post-flight               WARNING                 0          416      postflight/post_xslt_schematron.csv
+AI Enrichment             SKIPPED                 0          0        ai_enrichment.log
+
+================================================================================
+OUTPUT SUMMARY
+================================================================================
+
+Download file              : operating manual-traffic.zip
+Root DITA map              : operating_manualtraffic.ditamap
+Topics generated           : 1
+DITA maps generated        : 1
+Images extracted           : 8
+Files written              : 2
+
+Schema warnings            : 0
+Schema errors              : 416
+
+================================================================================
+The converted files and reports are ready for further review.
+================================================================================

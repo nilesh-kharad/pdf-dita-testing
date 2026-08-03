@@ -1,0 +1,194 @@
+================================================================================
+ metR PDF DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+  Source file          : operating manual-traffic.pdf
+  Total pages          : 165
+  Pages with text      : 162
+  Pages without text   : 3
+  Total chars          : 509,190
+  Status               : Digital PDF detected
+  Paper type           : A4
+
+--------------------------------------------------------------------------------
+  PAGE SIZE DETECTION
+  (nearest-size match, tolerance = ±0.8 cm x ±2 cm, digital or scanned)
+--------------------------------------------------------------------------------
+  Page    1:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    2:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] scanned
+  Page    3:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    4:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    5:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    6:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    7:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    8:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    9:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   10:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   11:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   12:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   13:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   14:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   15:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   16:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   17:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   18:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   19:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   20:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   21:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   22:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   23:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   24:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   25:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   26:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   27:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   28:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   29:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   30:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   31:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   32:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   33:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   34:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   35:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   36:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   37:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   38:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   39:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   40:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   41:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   42:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   43:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   44:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   45:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   46:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   47:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   48:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   49:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   50:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   51:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   52:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   53:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   54:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   55:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   56:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   57:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   58:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   59:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   60:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   61:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   62:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   63:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   64:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   65:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   66:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   67:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   68:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   69:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   70:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   71:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   72:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   73:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   74:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   75:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   76:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] scanned
+  Page   77:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   78:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   79:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   80:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   81:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   82:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   83:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   84:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   85:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   86:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   87:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   88:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   89:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   90:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   91:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   92:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   93:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   94:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   95:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   96:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   97:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   98:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page   99:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  100:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  101:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  102:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  103:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  104:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  105:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  106:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  107:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  108:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  109:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  110:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  111:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  112:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  113:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  114:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  115:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  116:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  117:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  118:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  119:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  120:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  121:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  122:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  123:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  124:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  125:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  126:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  127:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  128:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  129:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  130:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  131:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  132:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  133:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  134:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  135:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  136:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  137:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  138:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  139:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  140:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  141:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  142:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  143:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  144:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  145:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  146:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  147:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  148:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  149:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  150:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  151:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  152:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  153:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  154:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  155:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  156:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  157:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  158:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] scanned
+  Page  159:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  160:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  161:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  162:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  163:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  164:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page  165:  595.22 x  842.00 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+
+--------------------------------------------------------------------------------
+Preflight checks (165 pages)
+
+165 pages checked with 3 warning(s) and 0 non-blocking error(s).
+--------------------------------------------------------------------------------
+ Started               : 2026-08-03 10:59:17 UTC
+ Completed             : 2026-08-03 10:59:18 UTC
+ Duration              : 0.80s
+ Overall Status        : SUCCESS WITH WARNINGS
+
+================================================================================
+[GUI] Success: Pre-flight analysis completed successfully.
+================================================================================

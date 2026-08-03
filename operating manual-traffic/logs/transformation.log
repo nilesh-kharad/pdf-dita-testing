@@ -1,0 +1,104 @@
+================================================================================
+ metR PDF DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : operating manual-traffic.pdf
+ Started               : 2026-08-03 10:59:37 UTC
+================================================================================
+
+[GUI] Source files received for transformation.
+
+TASK 1 — Project Scan (Parsing)
+--------------------------------------------------------------------------------
+
+[Extraction Summary]
+
+Element                           Count
+------------------------------------------------------
+Total pages scanned               : 165
+level 0 (title)                   : 1
+level 1 (h1)                      : 0
+level 2 (h2)                      : 0
+level 3 (h3)                      : 0
+level 4 (h4)                      : 0
+level 5 (h5)                      : 0
+level 6 (h6)                      : 0
+Headings                          : 1
+Paragraphs                        : 1171
+Unordered Lists                   : 45
+Ordered Lists                     : 585
+List Items                        : 1834
+Tables                            : 27
+Total Media Files detected        : 8
+Images (Manifest)                 : 8
+Notes                             : 9
+Captions                          : 8
+Code Blocks                       : 0
+Cross References                  : 0
+Links                             : 58
+
+[GUI] Mapping source content to DITA-compliant structures.
+
+TASK 2 — PDF to DITA Conversion
+--------------------------------------------------------------------------------
+
+Content Statistics
+--------------------------------------------------------------------------------
+Title                             : 1
+H1 headings                       : 0
+H2 headings                       : 0
+H3 headings                       : 0
+H4 headings                       : 0
+H5 headings                       : 0
+H6 headings                       : 0
+Tables converted                  : 27
+Bullet lists converted            : 261
+Ordered lists converted           : 1573
+Code blocks converted             : 1076
+Notes converted                   : 9
+Assets copied                     : 8
+
+--------------------------------------------------------------------------------
+Topic Type Breakdown
+--------------------------------------------------------------------------------
+
+Concept                           : 0
+Task                              : 0
+Reference                         : 0
+Topic (generic)                   : 0
+Total topics                      : 1
+Sub-maps generated                : 0
+Files written                     : 2
+Root map                          : operating_manualtraffic.ditamap
+
+--------------------------------------------------------------------------------
+Concept
+
+(none)
+
+--------------------------------------------------------------------------------
+Task
+
+(none)
+
+--------------------------------------------------------------------------------
+Reference
+
+(none)
+
+--------------------------------------------------------------------------------
+Topic
+
+(none)
+
+================================================================================
+Transformation Summary
+================================================================================
+
+Topics Generated                  : 1
+DITA Maps Generated               : 1
+Completed                         : 2026-08-03 11:00:17 UTC
+Overall Status                    : SUCCESS
+
+================================================================================
+[GUI] Success: Content transformation completed successfully.
+================================================================================

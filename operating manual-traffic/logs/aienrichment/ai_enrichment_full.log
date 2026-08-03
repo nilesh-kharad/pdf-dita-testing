@@ -1,0 +1,201 @@
+2026-08-03 16:30:46,320 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-03 16:30:46,321 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = pre-xslt-output
+2026-08-03 16:30:46,321 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = output
+2026-08-03 16:30:46,321 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-08-03 16:30:46,321 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-03 16:30:46,327 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: .tmp_backup_output
+2026-08-03 16:30:46,486 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY not set — heuristic fallbacks will be used.
+2026-08-03 16:30:46,534 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 1 .dita files, 1 .ditamap files
+2026-08-03 16:30:46,543 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 1 DITA files
+2026-08-03 16:30:46,543 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-08-03 16:30:46,543 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 1
+2026-08-03 16:30:46,543 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] command_control_and_coordination_of_emergency_re.dita type=concept    shortdesc=NO  prolog=NO 
+2026-08-03 16:30:46,543 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-08-03 16:30:46,543 [INFO] ai_utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-03 16:30:46,547 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-03 16:30:46,552 [INFO] ai_utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-03 16:30:46,561 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-03 16:30:46,562 [INFO] ai_utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'command_control_and_coordination_of_emergency_re.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #3 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #4 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #5 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #6 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,574 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #7 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #8 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #9 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #10 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #11 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #12 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #13 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #14 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #15 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #16 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #17 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #18 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #19 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,575 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #20 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #21 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #22 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #23 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #25 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #26 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #27 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:46,576 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'command_control_and_coordination_of_emergency_re.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-03 16:30:46,576 [INFO] ai_utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=46 | dita_files=1, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=18, filename_spaces=0
+2026-08-03 16:30:46,577 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=46 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-08-03 16:30:46,577 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-08-03 16:30:46,582 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: command_control_and_coordination_of_emergency_re.dita — added xml:lang="en-us"
+2026-08-03 16:30:46,582 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] Complete — 1 fix(es) applied, 0 write failure(s)
+2026-08-03 16:30:46,583 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=1, write_failures=0
+2026-08-03 16:30:46,777 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-08-03 16:30:46,783 [INFO] ai_utils.document_context_extractor: [DocContext] extract_context_from_dita — 1 files found, stem='operating_manualtraffic'
+2026-08-03 16:30:46,783 [INFO] ai_utils.document_context_extractor: [DocContext] Extracting document-level context from: operating_manualtraffic.ditamap
+2026-08-03 16:30:46,783 [INFO] ai_utils.document_context_extractor: [DocContext] Aggregated content from 1 files
+2026-08-03 16:30:46,897 [WARNING] ai_utils.document_context_extractor: [DocContext] AI extraction failed: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-08-03 16:30:46,898 [INFO] ai_utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-08-03 16:30:46,899 [INFO] ai_utils.document_context_extractor: [DocContext] Skipping 'Station Master' — likely a person name (79% of occurrences adjacent to role-indicator words)
+2026-08-03 16:30:46,899 [INFO] ai_utils.document_context_extractor: [DocContext] Skipping 'Station Manager' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-03 16:30:46,899 [INFO] ai_utils.document_context_extractor: [DocContext] Skipping 'The Station Master' — likely a person name (80% of occurrences adjacent to role-indicator words)
+2026-08-03 16:30:46,900 [INFO] ai_utils.document_context_extractor: [DocContext] Skipping 'Station Masters' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-03 16:30:46,900 [INFO] ai_utils.document_context_extractor: [DocContext] Skipping 'Deputy Station Manager' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-03 16:30:46,900 [INFO] ai_utils.document_context_extractor: [DocContext] Heuristic task_type: 'maintenance procedures'
+2026-08-03 16:30:46,900 [INFO] ai_utils.document_context_extractor: [DocContext] Final context: {'prodname': 'operating_manualtraffic', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'maintenance procedures', 'document_keywords': ['maintenance procedures'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-08-03 16:30:46,901 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'operating_manualtraffic' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-08-03 16:30:46,901 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='maintenance procedures', method=heuristic, confidence=0.00
+2026-08-03 16:30:46,901 [INFO] ai_utils.core_log_parser: [CoreLogParser] Parsed transformation.log — pages=165, topics=1, files=2, submaps=0
+2026-08-03 16:30:46,902 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Conversion Summary ──────────────────────────────
+2026-08-03 16:30:46,902 [INFO] pipeline.enrich_runner: [ConversionSummary] pages=165, topics=1, files_written=2, submaps=0
+2026-08-03 16:30:46,902 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-08-03 16:30:46,902 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-08-03 16:30:46,902 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Pre-clean Corrections ──
+2026-08-03 16:30:46,904 [INFO] ai_utils.structural_fixer: [StructuralFix] table.xsl found — will chain before doc-type fixes
+2026-08-03 16:30:46,905 [INFO] ai_utils.structural_fixer: [StructuralFix] fix_p_warning_to_note.xsl found
+2026-08-03 16:30:46,905 [INFO] ai_utils.structural_fixer: [StructuralFix] fix_consecutive_p_to_list.xsl found
+2026-08-03 16:30:46,905 [INFO] ai_utils.structural_fixer: [StructuralFix] codeblock.xsl found — will merge consecutive codeblocks
+2026-08-03 16:30:46,905 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded task → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → task.xsl
+2026-08-03 16:30:46,905 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded concept → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → concept.xsl
+2026-08-03 16:30:46,905 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded reference → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → reference.xsl
+2026-08-03 16:30:46,906 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded map → map.xsl
+2026-08-03 16:30:46,906 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded bookmap → bookmap.xsl
+2026-08-03 16:30:46,906 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded glossentry → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → glossentry.xsl
+2026-08-03 16:30:46,906 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded topic → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → topic.xsl
+2026-08-03 16:30:47,134 [INFO] ai_utils.structural_fixer: [StructuralFix] .dita done — processed=1, modified=0, unchanged=1, failed=0
+2026-08-03 16:30:47,141 [INFO] ai_utils.structural_fixer: [StructuralFix] Fixed duplicate DOCTYPE in operating_manualtraffic.ditamap
+2026-08-03 16:30:47,141 [INFO] ai_utils.structural_fixer: [StructuralFix] Modified ditamap: operating_manualtraffic.ditamap [map]
+2026-08-03 16:30:47,141 [INFO] ai_utils.structural_fixer: [StructuralFix] .ditamap done — processed=1, modified=1, failed=0
+2026-08-03 16:30:47,141 [INFO] pipeline.enrich_runner: [EnrichPipeline] Pre-clean — status=completed, modified=0, failed=0
+2026-08-03 16:30:47,228 [INFO] layers.layer1234_enrichment: L1234 › 'COMMAND, CONTROL AND COORDINATION OF EMERGENCY RESCUE OPERATIONS ON THE OPEN LINE' command_control_and_coordination_of_emergency_re.dita | images=8
+2026-08-03 16:30:47,229 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-08-03 16:30:47,229 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'COMMAND, CONTROL AND COORDINATION OF EMERGENCY RESCUE OPERATIONS ON THE OPEN LINE'
+2026-08-03 16:30:47,270 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-03 16:30:47,278 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc command_control_and_coordination_of_emergency_re.dita (inserted)
+2026-08-03 16:30:47,291 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-03 16:30:47,297 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:47,303 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'COMMAND, CONTROL AND COORDINATION OF EMERGENCY RESCUE OPERATIONS ON THE OPEN LINE' → type=concept, confidence=low
+2026-08-03 16:30:47,352 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 1 topics processed
+2026-08-03 16:30:47,403 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 0 of 1 topics had type changed by AI
+2026-08-03 16:30:47,403 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-08-03 16:30:47,403 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  command_control_and_coordination_of_emergency_re.dita type=concept    shortdesc='GOVERNMENT OF INDIA MINISTRY OF RAILWAYS (RAILWAY BOARD)'
+2026-08-03 16:30:47,403 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['should', 'shall', 'train', 'trains', 'station', 'working'] | indexterms=['should', 'shall', 'train']
+2026-08-03 16:30:47,404 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=8
+2026-08-03 16:30:47,404 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-08-03 16:30:47,404 [INFO] layers.layer5_quality_autofix: L5 › command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:47,406 [INFO] layers.layer5_quality_autofix: L5 › review 1/1 topics (0 skipped)
+2026-08-03 16:30:47,406 [WARNING] layers.layer5_quality_autofix: L5 ✗ review: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-08-03 16:30:47,406 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-08-03 16:30:47,406 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-08-03 16:30:47,406 [INFO] layers.layer5_quality_autofix: L5 › autofix: 0 broken
+2026-08-03 16:30:47,407 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-08-03 16:30:47,407 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-08-03 16:30:47,407 [INFO] layers.layer6_final_validation: L6 ── structural validation start
+2026-08-03 16:30:47,416 [INFO] layers.layer6_final_validation: L6 ⚠ command_control_and_coordination_of_emergency_re.dita — 1 issue(s)
+2026-08-03 16:30:47,416 [INFO] layers.layer6_final_validation: L6 ✓ done pass=True acc=100% crit=0 err=0 warn=1
+2026-08-03 16:30:47,417 [INFO] layers.layer6_final_validation: L6 DTD schema start
+2026-08-03 16:30:47,425 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:47,425 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=1/1
+2026-08-03 16:30:47,425 [INFO] layers.layer6_final_validation: L6 DTD schema pass=True valid=1/1
+2026-08-03 16:30:47,425 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-08-03 16:30:47,425 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-08-03 16:30:47,426 [INFO] ai_utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-03 16:30:47,426 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-03 16:30:47,431 [INFO] ai_utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-03 16:30:47,441 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-03 16:30:47,442 [INFO] ai_utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-03 16:30:47,453 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #3 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #4 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #5 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #6 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #7 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #8 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,454 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #9 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #10 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #11 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #12 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #13 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #14 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #15 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #16 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #17 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #18 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #19 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #20 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #21 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #22 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,455 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #23 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,456 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #25 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,456 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #26 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,456 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'command_control_and_coordination_of_emergency_re.dita' — <table> #27 has no <title> element — required for accessibility and DITA compliance
+2026-08-03 16:30:47,456 [INFO] ai_utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=44 | dita_files=1, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=18, filename_spaces=0
+2026-08-03 16:30:47,457 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=44
+2026-08-03 16:30:47,457 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-08-03 16:30:47,462 [INFO] ai_utils.structure_validator: [EnrichmentQuality] Post-AI check — 0 issues in 1 files (CRITICAL=0, WARNING=0)
+2026-08-03 16:30:47,463 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=0 (checks: shortdesc, keywords, indexterms)
+2026-08-03 16:30:47,463 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=1, fixed_by_ai=1, remaining=44, ai_obligations_missed=0, new_by_ai=0
+2026-08-03 16:30:47,465 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── 4-Gate DITA 2.x Validation ──
+2026-08-03 16:30:53,032 [INFO] pipeline.enrich_runner: [Validation] 1/2 — command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:53,144 [INFO] pipeline.enrich_runner: [Validation] 2/2 — operating_manualtraffic.ditamap
+2026-08-03 16:30:53,240 [INFO] ai_utils.validation_runner: [Validation] Done — files=2, violations=416 (errors=416, warnings=0)
+2026-08-03 16:30:53,241 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation — status=completed, violations=416, files_affected=1
+2026-08-03 16:30:53,293 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1/3 — 416 violation(s) remaining
+2026-08-03 16:30:53,416 [INFO] ai_utils.auto_fixer: [AutoFixer] command_control_and_coordination_of_emergency_re.dita — fixed 8 violation(s): ['image_dims(8)']
+2026-08-03 16:30:53,417 [INFO] ai_utils.auto_fixer: [AutoFixer] Done — 1 file(s) fixed, 8 total fixes applied
+2026-08-03 16:30:53,417 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1 — fixed 8 in 1 file(s)
+2026-08-03 16:30:53,417 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: validation_fix_pass1.json
+2026-08-03 16:30:58,827 [INFO] pipeline.enrich_runner: [Validation] 1/2 — command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:58,977 [INFO] pipeline.enrich_runner: [Validation] 2/2 — operating_manualtraffic.ditamap
+2026-08-03 16:30:59,059 [INFO] ai_utils.validation_runner: [Validation] Done — files=2, violations=416 (errors=416, warnings=0)
+2026-08-03 16:30:59,060 [INFO] pipeline.enrich_runner: [EnrichPipeline] Re-validation pass 1 — 416 → 416 violation(s)
+2026-08-03 16:30:59,130 [INFO] pipeline.enrich_runner: [EnrichPipeline] No improvement in violation count — stopping iteration
+2026-08-03 16:30:59,142 [INFO] ai_utils.auto_fixer: [ImagePlacement] command_control_and_coordination_of_emergency_re.dita — 8 fix(es)
+2026-08-03 16:30:59,142 [INFO] ai_utils.auto_fixer: [ImagePlacement] Done — 1 file(s) updated, 8 total fix(es)
+2026-08-03 16:30:59,143 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — 1 file(s) updated, 8 fix(es)
+2026-08-03 16:30:59,145 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-03 16:30:59,145 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-08-03 16:30:59,388 [INFO] layers.layer7_fix_agent: L7/Suggest ── Started ──
+2026-08-03 16:30:59,390 [INFO] layers.layer7_fix_agent: L7/Suggest 419 issues (pre-dedup)
+2026-08-03 16:30:59,390 [INFO] layers.layer7_fix_agent: L7/Suggest 4 unique issues
+2026-08-03 16:30:59,390 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:59,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:59,396 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation command_control_and_coordination_of_emergency_re.dita
+2026-08-03 16:30:59,396 [WARNING] layers.layer7_fix_agent: L7/Suggest ✗ Claude command_control_and_coordination_of_emergency_re.dita: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-08-03 16:31:00,109 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ 4 suggestions
+2026-08-03 16:31:00,111 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ saved 4 suggestions
+2026-08-03 16:31:00,112 [INFO] layers.layer7_fix_agent: L7/Suggest ── Done ──
+2026-08-03 16:31:00,112 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=4
+2026-08-03 16:31:00,155 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 749, 'ul': 168, 'table': 27, 'image': 8, 'crosslink': 18, 'hyperlink': 0, 'concept': 1, 'task': 0, 'reference': 0, 'topic': 0}
+2026-08-03 16:31:00,157 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-03 16:31:00,160 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: pre_enrichment.json
+2026-08-03 16:31:00,161 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: post_enrichment.json
+2026-08-03 16:31:00,162 [INFO] pipeline.enrich_runner: [EnrichPipeline] Summary log written: ai_enrichment_summary.log
+2026-08-03 16:31:00,162 [INFO] pipeline.enrich_runner: [EnrichPipeline] Migration summary updated with AI enrichment results
+2026-08-03 16:31:00,163 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-03 16:31:00,163 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : ai_enrichment_full.log
+2026-08-03 16:31:00,163 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : aienrichment
+2026-08-03 16:31:00,163 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-03 16:31:00,553 [INFO] pipeline.enrich_runner: [EnrichPipeline] Unescape applied to 1 file(s)
+2026-08-03 16:31:00,556 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment
