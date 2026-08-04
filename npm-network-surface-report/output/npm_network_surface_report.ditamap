@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="npm_network_surface_report">
+  <title>NPM Network Surface Report</title>
+  <topicref href="npm_network_surface_report/npm_network_surface_report.dita">
+    <topicref href="npm_network_surface_report/scope.dita"/>
+    <topicref href="npm_network_surface_report/findings_outbound_apinetwork_calls.dita">
+      <topicref href="npm_network_surface_report/axios_active.dita"/>
+      <topicref href="npm_network_surface_report/nodemailer_active.dita"/>
+      <topicref href="npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita"/>
+      <topicref href="npm_network_surface_report/activeconfigured.dita"/>
+      <topicref href="npm_network_surface_report/razorpay_active_package_usage.dita"/>
+      <topicref href="npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita"/>
+      <topicref href="npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita"/>
+    </topicref>
+    <topicref href="npm_network_surface_report/findings_packages_that_open_listener_ports.dita">
+      <topicref href="npm_network_surface_report/strapistrapi.dita"/>
+      <topicref href="npm_network_surface_report/vite.dita"/>
+      <topicref href="npm_network_surface_report/next.dita"/>
+      <topicref href="npm_network_surface_report/reactscripts.dita"/>
+    </topicref>
+    <topicref href="npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita"/>
+    <topicref href="npm_network_surface_report/project_summary_matrix.dita"/>
+    <topicref href="npm_network_surface_report/notes_risk_flags.dita"/>
+  </topicref>
+</map>

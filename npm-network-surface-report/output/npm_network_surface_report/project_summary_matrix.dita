@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-project_summary_matrix" xml:lang="en-us">
+   <title>Project Summary Matrix</title>
+   <shortdesc>admin-metapercept : outbound via axios ; listener via react-scripts .</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>outbound</keyword>
+        <keyword>listener</keyword>
+        <keyword>metapercept</keyword>
+        <keyword>fetch</keyword>
+        <keyword>frontend</keyword>
+        <keyword>strapi</keyword>
+        <indexterm>outbound</indexterm>
+        <indexterm>listener</indexterm>
+        <indexterm>metapercept</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ul>
+         <li>admin-metapercept : outbound via axios ; listener via react-scripts .</li>
+         <li>blog-metapercept : outbound via script https.get + frontend fetch ; listener via vite .</li>
+         <li>careers-metapercept : outbound via frontend fetch ; listener via vite .</li>
+         <li>portfolio-metapercept : outbound via frontend fetch ; listener via vite .</li>
+         <li>metapercept-main : outbound via frontend fetch ; listener via vite .</li>
+         <li>metapercept-unified : outbound via script https.get + frontend fetch ; listener via vite .</li>
+         <li>Metapercept-Training2023-Frontend : outbound via axios , fetch , razorpay flow; listener via next .</li>
+         <li>Metapercept-Training2023-Backend : outbound via axios , nodemailer , Sendinblue provider; listener via strapi .</li>
+         <li>blog-adminpanel-metapercept : outbound via nodemailer , sib-api-v3- sdk , Sendinblue provider; listener via strapi .</li>
+         <li>careers-adminpanel-metapercept : outbound primarily via Sendinblue provider config (some hook code currently commented); listener via strapi .</li>
+         <li>portfolio-adminpanel-metapercept : listener via strapi (no direct custom outbound call found in this pass).</li>
+      </ul>
+    </section></refbody>
+</reference>

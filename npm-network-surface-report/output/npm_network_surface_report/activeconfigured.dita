@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-activeconfigured" xml:lang="en-us">
+   <title>(active/configured)</title>
+   <shortdesc>Used or configured for Sendinblue/Brevo email API integrations.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>config</keyword>
+        <keyword>configured</keyword>
+        <keyword>adminpanel</keyword>
+        <keyword>metapercept</keyword>
+        <keyword>provider</keyword>
+        <keyword>sendinblue</keyword>
+        <indexterm>config</indexterm>
+        <indexterm>configured</indexterm>
+        <indexterm>adminpanel</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Used or configured for Sendinblue/Brevo email API integrations.</p>
+      <p>Evidence:</p>
+      <ul>
+         <li>blog-adminpanel-metapercept/src/api/article/controllers/ article.js ( SibApiV3Sdk )</li>
+         <li>blog-adminpanel-metapercept/config/plugin.js (provider sendinblue )</li>
+         <li>careers-adminpanel-metapercept/config/plugins.js (provider sendinblue )</li>
+         <li>Metapercept-Training2023-Backend/config/plugins.js (sendinblue/nodemailer provider config blocks)</li>
+      </ul>
+    </section></refbody>
+</reference>

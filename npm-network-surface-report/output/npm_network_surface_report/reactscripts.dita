@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-reactscripts" xml:lang="en-us">
+   <title>4) react-scripts</title>
+   <shortdesc>Script: react-scripts start Project: admin-metapercept</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>react</keyword>
+        <keyword>scripts</keyword>
+        <keyword>Script</keyword>
+        <keyword>start</keyword>
+        <keyword>Project</keyword>
+        <keyword>admin</keyword>
+        <indexterm>react</indexterm>
+        <indexterm>scripts</indexterm>
+        <indexterm>Script</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Script:</p><ul>
+         <li>react-scripts start</li>
+      </ul><p>Project:</p><ul>
+         <li>admin-metapercept</li>
+      </ul>
+  </context></taskbody>
+</task>

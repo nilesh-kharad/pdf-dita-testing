@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-node_builtin_https_not_npm_but_active_outbound_n" xml:lang="en-us">
+   <title>5) Node built-in https (not npm, but active outbound network behavior)</title>
+   <shortdesc>Prefetch scripts fetch remote CMS/blog data during dev/build.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>scripts</keyword>
+        <keyword>fetch</keyword>
+        <keyword>Node</keyword>
+        <keyword>built</keyword>
+        <keyword>https</keyword>
+        <keyword>active</keyword>
+        <indexterm>scripts</indexterm>
+        <indexterm>fetch</indexterm>
+        <indexterm>Node</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Prefetch scripts fetch remote CMS/blog data during dev/build.</p><p>Evidence:</p><ul>
+         <li>blog-metapercept/scripts/fetchBlogData.mjs</li>
+         <li>metapercept-unified/scripts/fetchBlogData.mjs</li>
+      </ul>
+  </context></taskbody>
+</task>

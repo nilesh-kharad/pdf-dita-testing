@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-strapistrapi" xml:lang="en-us">
+   <title>1) @strapi/strapi</title>
+   <shortdesc>Scripts: strapi develop strapi start Projects: blog-adminpanel-metapercept careers-adminpanel-metapercept portfolio-adminpanel-metapercept Metapercept-Training2023-Backend</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>strapi</keyword>
+        <keyword>adminpanel</keyword>
+        <keyword>metapercept</keyword>
+        <keyword>Scripts</keyword>
+        <keyword>develop</keyword>
+        <keyword>start</keyword>
+        <indexterm>strapi</indexterm>
+        <indexterm>adminpanel</indexterm>
+        <indexterm>metapercept</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Scripts:</p><ul>
+         <li>strapi develop</li>
+         <li>strapi start</li>
+      </ul><p>Projects:</p><ul>
+         <li>blog-adminpanel-metapercept</li>
+         <li>careers-adminpanel-metapercept</li>
+         <li>portfolio-adminpanel-metapercept</li>
+         <li>Metapercept-Training2023-Backend</li>
+      </ul>
+  </context></taskbody>
+</task>

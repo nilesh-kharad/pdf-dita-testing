@@ -1,0 +1,71 @@
+metR PDF DocMigrate — AI ENRICHMENT REPORT
+================================================================================
+ DITA OUTPUT               : pre-xslt-output
+ Total Files               : 20 (18 DITA, 2 DITAMAP)
+ Topics Reclassified       : 14
+ Shortdescs Generated      : 18
+ Metadata Generated        : 18
+ Alt Text Filled           : 0 of 0 images
+ Author Suggestions        : 43 (all pending review)
+ AI Enrichment Mode        : AI unavailable for this run
+ Overall Status            : WARNING (fallback — manual review required)
+--------------------------------------------------------------------------------
+
+PRE-CLEAN CORRECTIONS APPLIED
+--------------------------------------------------------------------------------
+ Structural Pre-fixes       : 0 files modified, 0 failed
+ Zone 1 Auto-fixes         : 18 applied
+--------------------------------------------------------------------------------
+
+POST ENRICHMENT & VALIDATION (4-gate DITA 2.x validation)
+--------------------------------------------------------------------------------
+ Files validated           : 18
+ Files with violations     : 7
+ Total violations          : 7  (0 ERROR, 7 WARNING)
+   Gate 1 (vocabulary)     : 0
+   Gate 2 (structure)      : 7
+   Gate 3 (content model)  : 0
+   Gate 4 (attributes)     : 0
+ Fix passes applied        : Pass 1 — none
+--------------------------------------------------------------------------------
+ MANUAL ACTION REQUIRED — please review before packaging
+--------------------------------------------------------------------------------
+
+ 1. Add product name to all 18 files            [HIGH PRIORITY]
+    No product name could be determined automatically.
+    Every topic's <prodname> field is currently empty.
+
+ 2. Review 43 pending author suggestions before final packaging:
+      missing_prodname                16
+      missing_steps                   7
+      dtd_violation                   7
+      section_missing_title           7
+      missing_shortdesc               2
+      missing_prolog                  2
+      empty_p                         2
+
+ 3. Spot-check topic type for all 18 files       [low confidence — heuristic only]
+    14 of these were reclassified from their original type; none were
+    confirmed by AI.
+
+ 4. 4 structural issues remain open after enrichment:
+      missing_shortdesc               2
+      empty_p                         2
+
+--------------------------------------------------------------------------------
+
+SUPPORTING REPORTS (aienrichment folder)
+--------------------------------------------------------------------------------
+ File                                Contents
+--------------------------------------------------------------------------------
+ pre_enrichment.json                 File inventory, structural-issue scan, and
+                                      initial 4-gate DITA validation.
+ post_enrichment.json                Full per-file enrichment results, quality
+                                      metrics and validation fixes.
+ author_suggestions.json             All 43 author suggestions listed above,
+                                      with file, line, and suggested fix.
+ topic_inference_map.json            Per-topic classification detail — type,
+                                      confidence, and reasoning for every file.
+ ai_enrichment_full.log              Full technical run log (all layers, all
+                                      files) — for troubleshooting use only.
+--------------------------------------------------------------------------------

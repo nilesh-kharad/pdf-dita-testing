@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-nodemailer_active" xml:lang="en-us">
+   <title>2) nodemailer (active)</title>
+   <shortdesc>Used to send SMTP email from Strapi lifecycle hooks.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>nodemailer</keyword>
+        <keyword>active</keyword>
+        <keyword>content</keyword>
+        <keyword>types</keyword>
+        <keyword>lifecycles</keyword>
+        <keyword>white</keyword>
+        <indexterm>nodemailer</indexterm>
+        <indexterm>active</indexterm>
+        <indexterm>content</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Used to send SMTP email from Strapi lifecycle hooks.</p>
+      <p>Evidence:</p>
+      <ul>
+         <li>Metapercept-Training2023-Backend/src/api/more-info-form/ content-types/more-info-form/lifecycles.js</li>
+         <li>blog-adminpanel-metapercept/src/api/white-paper-download- form/content-types/white-paper-download-form/lifecycles.js</li>
+      </ul>
+    </section></refbody>
+</reference>

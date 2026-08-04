@@ -1,0 +1,120 @@
+================================================================================
+ metR PDF DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : npm-network-surface-report.pdf
+ Started               : 2026-08-04 05:12:18 UTC
+================================================================================
+
+[GUI] Source files received for transformation.
+
+TASK 1 — Project Scan (Parsing)
+--------------------------------------------------------------------------------
+
+[Extraction Summary]
+
+Element                           Count
+------------------------------------------------------
+Total pages scanned               : 4
+level 0 (title)                   : 0
+level 1 (h1)                      : 0
+level 2 (h2)                      : 1
+level 3 (h3)                      : 6
+level 4 (h4)                      : 11
+level 5 (h5)                      : 0
+level 6 (h6)                      : 0
+Headings                          : 18
+Paragraphs                        : 24
+Unordered Lists                   : 20
+Ordered Lists                     : 0
+List Items                        : 57
+Tables                            : 0
+Total Media Files detected        : 0
+Images (Manifest)                 : 0
+Notes                             : 0
+Captions                          : 0
+Code Blocks                       : 0
+Cross References                  : 0
+Links                             : 0
+
+[GUI] Mapping source content to DITA-compliant structures.
+
+TASK 2 — PDF to DITA Conversion
+--------------------------------------------------------------------------------
+
+Content Statistics
+--------------------------------------------------------------------------------
+Title                             : 0
+H1 headings                       : 0
+H2 headings                       : 1
+H3 headings                       : 6
+H4 headings                       : 11
+H5 headings                       : 0
+H6 headings                       : 0
+Tables converted                  : 0
+Bullet lists converted            : 57
+Ordered lists converted           : 0
+Code blocks converted             : 0
+Notes converted                   : 0
+Assets copied                     : 0
+
+--------------------------------------------------------------------------------
+Topic Type Breakdown
+--------------------------------------------------------------------------------
+
+Concept                           : 13
+Task                              : 0
+Reference                         : 0
+Topic (generic)                   : 5
+Total topics                      : 18
+Sub-maps generated                : 1
+Files written                     : 20
+Root map                          : npmnetworksurfacereport.ditamap
+
+--------------------------------------------------------------------------------
+Concept
+
+1. npm_network_surface_report/scope.dita
+2. npm_network_surface_report/findings_outbound_apinetwork_calls.dita
+3. npm_network_surface_report/axios_active.dita
+4. npm_network_surface_report/nodemailer_active.dita
+5. npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita
+6. npm_network_surface_report/activeconfigured.dita
+7. npm_network_surface_report/razorpay_active_package_usage.dita
+8. npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita
+9. npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita
+10. npm_network_surface_report/strapistrapi.dita
+11. npm_network_surface_report/vite.dita
+12. npm_network_surface_report/next.dita
+13. npm_network_surface_report/reactscripts.dita
+
+--------------------------------------------------------------------------------
+Task
+
+(none)
+
+--------------------------------------------------------------------------------
+Reference
+
+(none)
+
+--------------------------------------------------------------------------------
+Topic
+
+1. npm_network_surface_report/npm_network_surface_report.dita
+2. npm_network_surface_report/findings_packages_that_open_listener_ports.dita
+3. npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita
+4. npm_network_surface_report/project_summary_matrix.dita
+5. npm_network_surface_report/notes_risk_flags.dita
+
+================================================================================
+Transformation Summary
+================================================================================
+
+Topics Generated                  : 18
+DITA Maps Generated               : 2
+Completed                         : 2026-08-04 05:12:19 UTC
+Overall Status                    : SUCCESS
+
+================================================================================
+[GUI] Success: Content transformation completed successfully.
+================================================================================

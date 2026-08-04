@@ -1,0 +1,633 @@
+{
+  "job_id": "4f1897aa-fbca-47a9-bce5-2451586ecd09",
+  "output_dir": "/app/storage/4f1897aa-fbca-47a9-bce5-2451586ecd09/pre-xslt-output",
+  "run_at": "2026-08-04T05:12:33.847575+00:00",
+  "files_discovered": {
+    "dita_file_count": 18,
+    "dita_files": [
+      "npm_network_surface_report/activeconfigured.dita",
+      "npm_network_surface_report/axios_active.dita",
+      "npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita",
+      "npm_network_surface_report/findings_outbound_apinetwork_calls.dita",
+      "npm_network_surface_report/findings_packages_that_open_listener_ports.dita",
+      "npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita",
+      "npm_network_surface_report/next.dita",
+      "npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita",
+      "npm_network_surface_report/nodemailer_active.dita",
+      "npm_network_surface_report/notes_risk_flags.dita",
+      "npm_network_surface_report/npm_network_surface_report.dita",
+      "npm_network_surface_report/project_summary_matrix.dita",
+      "npm_network_surface_report/razorpay_active_package_usage.dita",
+      "npm_network_surface_report/reactscripts.dita",
+      "npm_network_surface_report/scope.dita",
+      "npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita",
+      "npm_network_surface_report/strapistrapi.dita",
+      "npm_network_surface_report/vite.dita"
+    ],
+    "ditamap_file_count": 2,
+    "ditamap_files": [
+      "npm_network_surface_report.ditamap",
+      "npmnetworksurfacereport.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "user guide",
+    "document_keywords": [
+      "user guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/npm_network_surface_report.dita",
+      "message": "<topic> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/npm_network_surface_report.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/reactscripts.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/reactscripts.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/razorpay_active_package_usage.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/razorpay_active_package_usage.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/scope.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/scope.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita",
+      "message": "<topic> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/findings_packages_that_open_listener_ports.dita",
+      "message": "<topic> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/findings_packages_that_open_listener_ports.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/next.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/next.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/vite.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/vite.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/nodemailer_active.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/nodemailer_active.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/notes_risk_flags.dita",
+      "message": "<topic> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/notes_risk_flags.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/strapistrapi.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/strapistrapi.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/axios_active.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/axios_active.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/findings_outbound_apinetwork_calls.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/findings_outbound_apinetwork_calls.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "npm_network_surface_report/findings_outbound_apinetwork_calls.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/project_summary_matrix.dita",
+      "message": "<topic> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/project_summary_matrix.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "npm_network_surface_report/activeconfigured.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "npm_network_surface_report/activeconfigured.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 18,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 38,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_xml_lang": 18,
+      "missing_shortdesc": 18,
+      "empty_p": 2
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "npm_network_surface_report/activeconfigured.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/axios_active.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/findings_outbound_apinetwork_calls.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/findings_packages_that_open_listener_ports.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/next.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/nodemailer_active.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/notes_risk_flags.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/npm_network_surface_report.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/project_summary_matrix.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/razorpay_active_package_usage.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/reactscripts.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/scope.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/strapistrapi.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "npm_network_surface_report/vite.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 18,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  },
+  "validation": {
+    "status": "completed",
+    "run_at": "2026-08-04T05:12:33.833507+00:00",
+    "summary": {
+      "files_validated": 20,
+      "files_with_violations": 7,
+      "total_violations": 7,
+      "violations_by_gate": {
+        "gate1": 0,
+        "gate2": 7,
+        "gate3": 0,
+        "gate4": 0
+      },
+      "violations_by_severity": {
+        "error": 0,
+        "warning": 7
+      }
+    },
+    "violations": [
+      {
+        "file": "npm_network_surface_report/activeconfigured.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "npm_network_surface_report/axios_active.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "npm_network_surface_report/nodemailer_active.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "npm_network_surface_report/notes_risk_flags.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "npm_network_surface_report/project_summary_matrix.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "npm_network_surface_report/razorpay_active_package_usage.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "npm_network_surface_report/scope.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      }
+    ],
+    "per_file": [
+      {
+        "file": "npm_network_surface_report/activeconfigured.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/axios_active.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/findings_outbound_apinetwork_calls.dita",
+        "doc_type": "concept",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/findings_packages_that_open_listener_ports.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita",
+        "doc_type": "topic",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/next.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/nodemailer_active.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/notes_risk_flags.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/npm_network_surface_report.dita",
+        "doc_type": "topic",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/project_summary_matrix.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/razorpay_active_package_usage.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/reactscripts.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/scope.dita",
+        "doc_type": "reference",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 1
+      },
+      {
+        "file": "npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita",
+        "doc_type": "concept",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/strapistrapi.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report/vite.dita",
+        "doc_type": "task",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npm_network_surface_report.ditamap",
+        "doc_type": "map",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      },
+      {
+        "file": "npmnetworksurfacereport.ditamap",
+        "doc_type": "map",
+        "is_valid": true,
+        "error_count": 0,
+        "warning_count": 0
+      }
+    ]
+  }
+}

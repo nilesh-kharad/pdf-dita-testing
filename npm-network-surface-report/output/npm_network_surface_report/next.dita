@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-next" xml:lang="en-us">
+   <title>3) next</title>
+   <shortdesc>Scripts: next dev next start Project: Metapercept-Training2023-Frontend</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Scripts</keyword>
+        <keyword>start</keyword>
+        <keyword>Project</keyword>
+        <keyword>Metapercept</keyword>
+        <keyword>Training</keyword>
+        <keyword>Frontend</keyword>
+        <indexterm>Scripts</indexterm>
+        <indexterm>start</indexterm>
+        <indexterm>Project</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Scripts:</p><ul>
+         <li>next dev</li>
+         <li>next start</li>
+      </ul><p>Project:</p><ul>
+         <li>Metapercept-Training2023-Frontend</li>
+      </ul>
+  </context></taskbody>
+</task>

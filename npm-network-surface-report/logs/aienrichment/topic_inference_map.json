@@ -1,0 +1,712 @@
+{
+  "Findings: Outbound API/Network Calls": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Skipped \u2014 topic body has no text content; classification unreliable",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.167,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Findings",
+        "Outbound",
+        "API",
+        "Network",
+        "Calls"
+      ],
+      "compact_excerpt": "Findings: Outbound API/Network Calls"
+    },
+    "classified_at": 1785820347.953445
+  },
+  "3) sib-api-v3-sdk and strapi-provider-email-sendinblue": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Skipped \u2014 topic body has no text content; classification unreliable",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.833,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "strapi",
+        "provider",
+        "email",
+        "sendinblue"
+      ],
+      "compact_excerpt": "3) sib-api-v3-sdk and strapi-provider-email-sendinblue"
+    },
+    "classified_at": 1785820347.961353
+  },
+  "(active/configured)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 28
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "config",
+        "adminpanel",
+        "metapercept",
+        "provider",
+        "sendinblue",
+        "configured",
+        "blog",
+        "article",
+        "plugins",
+        "active",
+        "Used",
+        "Sendinblue"
+      ],
+      "compact_excerpt": "(active/configured) Used or configured for Sendinblue/Brevo email API integrations. Evidence: blog-adminpanel-metapercept/src/api/article/controllers/ article.js ( SibApiV3Sdk ) blog-adminpanel-metapercept/config/plugin.js (provider sendinblue ) careers-adminpanel-metapercept/config/plugins.js (provider sendinblue ) Metapercept-Training2023-Backend/config/plugins.js (sendinblue/nodemailer provider"
+    },
+    "classified_at": 1785820348.211479
+  },
+  "1) axios (active)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.056,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 21
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Metapercept",
+        "Training",
+        "axios",
+        "Frontend",
+        "more",
+        "info",
+        "form",
+        "active",
+        "Observed",
+        "across",
+        "multiple",
+        "projects"
+      ],
+      "compact_excerpt": "1) axios (active) Observed across multiple projects for HTTP requests. Evidence: Metapercept-Training2023-Frontend/api/* (many axios.get/post/put/delete ) Metapercept-Training2023-Frontend/src/components/* (auth/profile flows) Metapercept-Training2023-Backend/src/api/more-info-form/ content-types/more-info-form/lifecycles.js admin-metapercept/src/services/axiosInstance.js"
+    },
+    "classified_at": 1785820348.2264423
+  },
+  "6) Browser fetch (not npm, but active outbound behavior)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.111,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 26
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "metapercept",
+        "Browser",
+        "services",
+        "Service",
+        "fetch",
+        "active",
+        "outbound",
+        "behavior",
+        "Extensive",
+        "API",
+        "calls",
+        "frontends"
+      ],
+      "compact_excerpt": "6) Browser fetch (not npm, but active outbound behavior) Extensive API calls in frontends to CMS/backends and external endpoints. Representative evidence: metapercept-main/src/services/apiService.js metapercept-unified/src/services/apiService.js portfolio-metapercept/src/components/* careers-metapercept/src/pages/* blog-metapercept/src/contexts/BlogDataContext.jsx"
+    },
+    "classified_at": 1785820348.2511132
+  },
+  "Findings: Packages That Open Listener Ports": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.222,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Findings",
+        "Packages",
+        "Open",
+        "Listener",
+        "Ports",
+        "That",
+        "These",
+        "packages",
+        "open",
+        "local",
+        "listener",
+        "ports"
+      ],
+      "compact_excerpt": "Findings: Packages That Open Listener Ports These packages open local listener ports when corresponding scripts are run."
+    },
+    "classified_at": 1785820348.4596372
+  },
+  "3) next": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.333,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "next",
+        "Scripts",
+        "start",
+        "Project",
+        "Metapercept",
+        "Training",
+        "Frontend"
+      ],
+      "compact_excerpt": "3) next Scripts: next dev next start Project: Metapercept-Training2023-Frontend"
+    },
+    "classified_at": 1785820348.5349398
+  },
+  "Installed but Not Clearly Active (from current code scan)": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.278,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 42
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "metapercept",
+        "Installed",
+        "Clearly",
+        "Active",
+        "Not",
+        "current",
+        "scan",
+        "react",
+        "present",
+        "found",
+        "components",
+        "Now"
+      ],
+      "compact_excerpt": "Installed but Not Clearly Active (from current code scan) react-google-recaptcha : present in package manifests, but usage appears commented where found. Evidence: careers-metapercept/src/components/Career/applyNow.jsx , metapercept-unified/src/components/CareersPortal/applyNow .jsx metapercept-react-chatbot-widget : present in metapercept-main and metapercept-unified dependencies, but no explicit"
+    },
+    "classified_at": 1785820348.6094768
+  },
+  "5) Node built-in https (not npm, but active outbound network behavior)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.389,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 22
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Node",
+        "scripts",
+        "blog",
+        "metapercept",
+        "BlogData",
+        "built",
+        "https",
+        "active",
+        "outbound",
+        "network",
+        "behavior",
+        "Prefetch"
+      ],
+      "compact_excerpt": "5) Node built-in https (not npm, but active outbound network behavior) Prefetch scripts fetch remote CMS/blog data during dev/build. Evidence: blog-metapercept/scripts/fetchBlogData.mjs metapercept-unified/scripts/fetchBlogData.mjs"
+    },
+    "classified_at": 1785820348.7124631
+  },
+  "2) nodemailer (active)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.444,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "form",
+        "more",
+        "info",
+        "content",
+        "types",
+        "lifecycles",
+        "white",
+        "paper",
+        "download",
+        "nodemailer",
+        "active",
+        "Used"
+      ],
+      "compact_excerpt": "2) nodemailer (active) Used to send SMTP email from Strapi lifecycle hooks. Evidence: Metapercept-Training2023-Backend/src/api/more-info-form/ content-types/more-info-form/lifecycles.js blog-adminpanel-metapercept/src/api/white-paper-download- form/content-types/white-paper-download-form/lifecycles.js"
+    },
+    "classified_at": 1785820348.8216608
+  },
+  "Notes / Risk Flags": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.5,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 26
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Notes",
+        "Risk",
+        "Flags",
+        "Multiple",
+        "files",
+        "contain",
+        "hard",
+        "coded",
+        "API",
+        "keys",
+        "SMTP",
+        "credentials"
+      ],
+      "compact_excerpt": "Notes / Risk Flags Multiple files contain hard-coded API keys or SMTP credentials in source/config. Treat this report as static-analysis evidence (code-based), not runtime packet capture."
+    },
+    "classified_at": 1785820348.8555126
+  },
+  "NPM Network Surface Report": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.556,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "NPM",
+        "Network",
+        "Surface",
+        "Report",
+        "Generated",
+        "Workspace",
+        "Users",
+        "Metapercept",
+        "Desktop",
+        "Nilesh",
+        "metapercept"
+      ],
+      "compact_excerpt": "NPM Network Surface Report Generated: 2026-07-08 Workspace: c:\\Users\\Metapercept\\Desktop\\Nilesh\\metapercept-web"
+    },
+    "classified_at": 1785820348.9593425
+  },
+  "Project Summary Matrix": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.611,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 148
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "outbound",
+        "listener",
+        "metapercept",
+        "fetch",
+        "frontend",
+        "vite",
+        "Project",
+        "Summary",
+        "Matrix",
+        "strapi",
+        "axios",
+        "Sendinblue"
+      ],
+      "compact_excerpt": "Project Summary Matrix admin-metapercept : outbound via axios ; listener via react-scripts . blog-metapercept : outbound via script https.get + frontend fetch ; listener via vite . careers-metapercept : outbound via frontend fetch ; listener via vite . portfolio-metapercept : outbound via frontend fetch ; listener via vite . metapercept-main : outbound via frontend fetch ; listener via vite . meta"
+    },
+    "classified_at": 1785820349.0984585
+  },
+  "4) razorpay (active package usage)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.667,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 19
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "razorpay",
+        "active",
+        "package",
+        "usage",
+        "Initialized",
+        "backend",
+        "API",
+        "handler",
+        "payment",
+        "flow",
+        "Evidence",
+        "Metapercept"
+      ],
+      "compact_excerpt": "4) razorpay (active package usage) Initialized in backend API handler for payment flow. Evidence: Metapercept-Training2023-Frontend/src/pages/api/razorpay.js ( new Razorpay(...) )"
+    },
+    "classified_at": 1785820349.1058793
+  },
+  "4) react-scripts": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.722,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "react",
+        "scripts",
+        "Script",
+        "start",
+        "Project",
+        "admin",
+        "metapercept"
+      ],
+      "compact_excerpt": "4) react-scripts Script: react-scripts start Project: admin-metapercept"
+    },
+    "classified_at": 1785820349.209972
+  },
+  "1) @strapi/strapi": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.889,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 12
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "strapi",
+        "adminpanel",
+        "metapercept",
+        "Scripts",
+        "develop",
+        "start",
+        "Projects",
+        "blog",
+        "careers",
+        "portfolio",
+        "Metapercept",
+        "Training"
+      ],
+      "compact_excerpt": "1) @strapi/strapi Scripts: strapi develop strapi start Projects: blog-adminpanel-metapercept careers-adminpanel-metapercept portfolio-adminpanel-metapercept Metapercept-Training2023-Backend"
+    },
+    "classified_at": 1785820349.355545
+  },
+  "Scope": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.778,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 56
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Scope",
+        "report",
+        "identifies",
+        "packages",
+        "make",
+        "outbound",
+        "API",
+        "network",
+        "calls",
+        "open",
+        "listener",
+        "ports"
+      ],
+      "compact_excerpt": "Scope This report identifies npm packages that: make outbound API/network calls, or open listener ports (local dev/prod servers). Method used: Reviewed all discovered package.json files. Searched source for concrete runtime usage ( axios , fetch , nodemailer , Razorpay , https.get , server scripts). Marked entries as active , configured/plugin-driven , or installed only where applicable."
+    },
+    "classified_at": 1785820349.3781438
+  },
+  "2) vite": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.944,
+        "paragraph_count": 1,
+        "step_list_count": 1,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "metapercept",
+        "vite",
+        "Scripts",
+        "preview",
+        "Projects",
+        "blog",
+        "careers",
+        "portfolio",
+        "main",
+        "unified"
+      ],
+      "compact_excerpt": "2) vite Scripts: vite ( dev ) vite preview Projects: blog-metapercept careers-metapercept portfolio-metapercept metapercept-main metapercept-unified"
+    },
+    "classified_at": 1785820349.4707491
+  }
+}

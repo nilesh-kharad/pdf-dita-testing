@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="npm-network-surface-report">
+  <title>npm-network-surface-report</title>
+  <topicref href="npm_network_surface_report.ditamap" format="ditamap">
+    <topicmeta>
+      <navtitle>NPM Network Surface Report</navtitle>
+    </topicmeta>
+  </topicref>
+</map>

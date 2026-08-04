@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-scope" xml:lang="en-us">
+   <title>Scope</title>
+   <shortdesc>This report identifies npm packages that:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Scope</keyword>
+        <keyword>report</keyword>
+        <keyword>identifies</keyword>
+        <keyword>packages</keyword>
+        <keyword>outbound</keyword>
+        <keyword>network</keyword>
+        <indexterm>Scope</indexterm>
+        <indexterm>report</indexterm>
+        <indexterm>identifies</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>This report identifies npm packages that:</p>
+      <ul>
+         <li>make outbound API/network calls, or</li>
+         <li>open listener ports (local dev/prod servers).</li>
+      </ul>
+      <p>Method used:</p>
+      <ul>
+         <li>Reviewed all discovered package.json files.</li>
+         <li>Searched source for concrete runtime usage ( axios , fetch , nodemailer , Razorpay , https.get , server scripts).</li>
+         <li>Marked entries as <b>active</b>, <b>configured/plugin-driven</b>, or <b>installed only</b> where applicable.</li>
+      </ul>
+    </section></refbody>
+</reference>

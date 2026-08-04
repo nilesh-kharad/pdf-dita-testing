@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-vite" xml:lang="en-us">
+   <title>2) vite</title>
+   <shortdesc>Scripts: vite ( dev ) vite preview Projects: blog-metapercept careers-metapercept portfolio-metapercept metapercept-main metapercept-unified</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>metapercept</keyword>
+        <keyword>Scripts</keyword>
+        <keyword>preview</keyword>
+        <keyword>Projects</keyword>
+        <keyword>careers</keyword>
+        <keyword>portfolio</keyword>
+        <indexterm>metapercept</indexterm>
+        <indexterm>Scripts</indexterm>
+        <indexterm>preview</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Scripts:</p><ul>
+         <li>vite ( dev )</li>
+         <li>vite preview</li>
+      </ul><p>Projects:</p><ul>
+         <li>blog-metapercept</li>
+         <li>careers-metapercept</li>
+         <li>portfolio-metapercept</li>
+         <li>metapercept-main</li>
+         <li>metapercept-unified</li>
+      </ul>
+  </context></taskbody>
+</task>

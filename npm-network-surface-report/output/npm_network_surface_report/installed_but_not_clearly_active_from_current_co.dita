@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
+<topic id="id-installed_but_not_clearly_active_from_current_co" xml:lang="en-us">
+   <title>Installed but Not Clearly Active (from current code scan)</title>
+   <shortdesc>react-google-recaptcha : present in package manifests, but usage appears commented where found.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>metapercept</keyword>
+        <keyword>current</keyword>
+        <keyword>Installed</keyword>
+        <keyword>Clearly</keyword>
+        <keyword>Active</keyword>
+        <keyword>react</keyword>
+        <indexterm>metapercept</indexterm>
+        <indexterm>current</indexterm>
+        <indexterm>Installed</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <body>
+      <ul>
+         <li>react-google-recaptcha : present in package manifests, but usage appears commented where found.<ul>
+               <li>Evidence: careers-metapercept/src/components/Career/applyNow.jsx , metapercept-unified/src/components/CareersPortal/applyNow .jsx</li>
+            </ul>
+         </li>
+         <li>metapercept-react-chatbot-widget : present in metapercept-main and metapercept-unified dependencies, but no explicit import/use found in current scan.</li>
+      </ul>
+   </body>
+</topic>

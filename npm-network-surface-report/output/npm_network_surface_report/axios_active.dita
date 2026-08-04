@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-axios_active" xml:lang="en-us">
+   <title>1) axios (active)</title>
+   <shortdesc>Observed across multiple projects for HTTP requests.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>axios</keyword>
+        <keyword>Metapercept</keyword>
+        <keyword>Training</keyword>
+        <keyword>active</keyword>
+        <keyword>Frontend</keyword>
+        <keyword>Observed</keyword>
+        <indexterm>axios</indexterm>
+        <indexterm>Metapercept</indexterm>
+        <indexterm>Training</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Observed across multiple projects for HTTP requests.</p>
+      <p>Evidence:</p>
+      <ul>
+         <li>Metapercept-Training2023-Frontend/api/* (many axios.get/post/put/delete )</li>
+         <li>Metapercept-Training2023-Frontend/src/components/* (auth/profile flows)</li>
+         <li>Metapercept-Training2023-Backend/src/api/more-info-form/ content-types/more-info-form/lifecycles.js</li>
+         <li>admin-metapercept/src/services/axiosInstance.js</li>
+      </ul>
+    </section></refbody>
+</reference>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-razorpay_active_package_usage" xml:lang="en-us">
+   <title>4) razorpay (active package usage)</title>
+   <shortdesc>Initialized in backend API handler for payment flow.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>razorpay</keyword>
+        <keyword>active</keyword>
+        <keyword>package</keyword>
+        <keyword>usage</keyword>
+        <keyword>Initialized</keyword>
+        <keyword>backend</keyword>
+        <indexterm>razorpay</indexterm>
+        <indexterm>active</indexterm>
+        <indexterm>package</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Initialized in backend API handler for payment flow.</p>
+      <p>Evidence:</p>
+      <ul>
+         <li>Metapercept-Training2023-Frontend/src/pages/api/razorpay.js ( new Razorpay(...) )</li>
+      </ul>
+    </section></refbody>
+</reference>

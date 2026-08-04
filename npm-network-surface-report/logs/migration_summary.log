@@ -1,0 +1,40 @@
+================================================================================
+ metR PDF DocMigrate — MIGRATION SUMMARY REPORT
+================================================================================
+
+Source File                : npm-network-surface-report.pdf
+Converter                  : PDF
+Started                    : 2026-08-04 05:12:18 UTC
+Completed                  : 2026-08-04 05:12:26 UTC
+Duration                   : 00:00:08
+Overall Status             : SUCCESS
+
+================================================================================
+STAGE RESULTS
+================================================================================
+
+Stage                     Status                  Warnings   Errors   Detail Log
+--------------------------------------------------------------------------------
+Upload                    SUCCESS                 0          0        upload.log
+Pre-flight                SUCCESS                 0          0        preflight.log
+Transformation            SUCCESS                 0          0        transformation.log
+Post-flight               SUCCESS                 0          0        postflight/post_xslt_schematron.csv
+AI Enrichment             SKIPPED                 0          0        ai_enrichment.log
+
+================================================================================
+OUTPUT SUMMARY
+================================================================================
+
+Download file              : npm-network-surface-report.zip
+Root DITA map              : npmnetworksurfacereport.ditamap
+Topics generated           : 18
+DITA maps generated        : 2
+Images extracted           : 0
+Files written              : 20
+
+Schema warnings            : 0
+Schema errors              : 0
+
+================================================================================
+The converted files and reports are ready for further review.
+================================================================================

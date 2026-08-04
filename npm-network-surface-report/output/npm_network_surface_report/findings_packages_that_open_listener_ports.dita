@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-findings_packages_that_open_listener_ports" xml:lang="en-us">
+   <title>Findings: Packages That Open Listener Ports</title>
+   <shortdesc>These packages open local listener ports when corresponding scripts are run.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Findings</keyword>
+        <keyword>Packages</keyword>
+        <keyword>Open</keyword>
+        <keyword>Listener</keyword>
+        <keyword>Ports</keyword>
+        <keyword>These</keyword>
+        <indexterm>Findings</indexterm>
+        <indexterm>Packages</indexterm>
+        <indexterm>Open</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>These packages open local listener ports when corresponding scripts are run.</p>
+  </context></taskbody>
+</task>

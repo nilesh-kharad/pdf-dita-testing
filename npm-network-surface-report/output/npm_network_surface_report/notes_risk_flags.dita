@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="id-notes_risk_flags" xml:lang="en-us">
+   <title>Notes / Risk Flags</title>
+   <shortdesc>Multiple files contain hard-coded API keys or SMTP credentials in source/config.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Notes</keyword>
+        <keyword>Risk</keyword>
+        <keyword>Flags</keyword>
+        <keyword>Multiple</keyword>
+        <keyword>files</keyword>
+        <keyword>contain</keyword>
+        <indexterm>Notes</indexterm>
+        <indexterm>Risk</indexterm>
+        <indexterm>Flags</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ul>
+         <li>Multiple files contain hard-coded API keys or SMTP credentials in source/config.</li>
+         <li>Treat this report as static-analysis evidence (code-based), not runtime packet capture.</li>
+      </ul>
+    </section></refbody>
+</reference>

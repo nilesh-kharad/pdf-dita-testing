@@ -1,0 +1,524 @@
+2026-08-04 05:12:27,013 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-04 05:12:27,013 [INFO] pipeline.enrich_runner: [EnrichPipeline] output_dir  = pre-xslt-output
+2026-08-04 05:12:27,013 [INFO] pipeline.enrich_runner: [EnrichPipeline] working_dir = output
+2026-08-04 05:12:27,013 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-08-04 05:12:27,014 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-04 05:12:27,016 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: .tmp_backup_output
+2026-08-04 05:12:27,031 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 18 .dita files, 2 .ditamap files
+2026-08-04 05:12:27,033 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 18 DITA files
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 18
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/activeconfigured.dita   type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/axios_active.dita       type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/findings_outbound_apinetwork_calls.dita type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/findings_packages_that_open_listener_ports.dita type=topic      shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita type=topic      shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/next.dita               type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/nodemailer_active.dita  type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/notes_risk_flags.dita   type=topic      shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/npm_network_surface_report.dita type=topic      shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/project_summary_matrix.dita type=topic      shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/razorpay_active_package_usage.dita type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,034 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/reactscripts.dita       type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,035 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/scope.dita              type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,035 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,035 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/strapistrapi.dita       type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,035 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] npm_network_surface_report/vite.dita               type=concept    shortdesc=NO  prolog=NO 
+2026-08-04 05:12:27,035 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-08-04 05:12:27,035 [INFO] ai_utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-04 05:12:27,038 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-04 05:12:27,039 [INFO] ai_utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-04 05:12:27,041 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-04 05:12:27,041 [INFO] ai_utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-04 05:12:27,042 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/npm_network_surface_report.dita' — <topic> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,042 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/npm_network_surface_report.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,042 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/reactscripts.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,043 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/reactscripts.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,043 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/razorpay_active_package_usage.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,043 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/razorpay_active_package_usage.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,043 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/scope.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,044 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/scope.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,044 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita' — <topic> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,044 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,044 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,044 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,045 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/findings_packages_that_open_listener_ports.dita' — <topic> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,045 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/findings_packages_that_open_listener_ports.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,045 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,045 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,046 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,046 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,046 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita' — <p> #1 is empty — remove or add content
+2026-08-04 05:12:27,046 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/next.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,046 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/next.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,047 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/vite.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,047 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/vite.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,047 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/nodemailer_active.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,047 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/nodemailer_active.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,048 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/notes_risk_flags.dita' — <topic> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,048 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/notes_risk_flags.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,048 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/strapistrapi.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,048 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/strapistrapi.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,049 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/axios_active.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,049 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/axios_active.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,049 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/findings_outbound_apinetwork_calls.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,049 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/findings_outbound_apinetwork_calls.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,049 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'npm_network_surface_report/findings_outbound_apinetwork_calls.dita' — <p> #1 is empty — remove or add content
+2026-08-04 05:12:27,050 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/project_summary_matrix.dita' — <topic> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,050 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/project_summary_matrix.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,050 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'npm_network_surface_report/activeconfigured.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-04 05:12:27,050 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/activeconfigured.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:27,051 [INFO] ai_utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=38 | dita_files=18, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-04 05:12:27,051 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=38 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-08-04 05:12:27,051 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-08-04 05:12:27,052 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/activeconfigured.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,052 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/axios_active.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,053 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,053 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/findings_outbound_apinetwork_calls.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,054 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/findings_packages_that_open_listener_ports.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,054 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,054 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/next.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,055 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,055 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/nodemailer_active.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,055 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/notes_risk_flags.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,055 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/npm_network_surface_report.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,056 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/project_summary_matrix.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,056 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/razorpay_active_package_usage.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,056 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/reactscripts.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,057 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/scope.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,057 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,057 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/strapistrapi.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,058 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] FIXED: npm_network_surface_report/vite.dita — added xml:lang="en-us"
+2026-08-04 05:12:27,058 [INFO] ai_utils.dita_safe_fixer: [SafeFixer] Complete — 18 fix(es) applied, 0 write failure(s)
+2026-08-04 05:12:27,058 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=18, write_failures=0
+2026-08-04 05:12:27,463 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY is invalid or expired — heuristic fallbacks will be used.
+2026-08-04 05:12:27,466 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-08-04 05:12:27,469 [INFO] ai_utils.document_context_extractor: [DocContext] extract_context_from_dita — 18 files found, stem='npm_network_surface_report'
+2026-08-04 05:12:27,469 [INFO] ai_utils.document_context_extractor: [DocContext] Extracting document-level context from: npm_network_surface_report.ditamap
+2026-08-04 05:12:27,469 [INFO] ai_utils.document_context_extractor: [DocContext] Aggregated content from 18 files
+2026-08-04 05:12:27,717 [WARNING] ai_utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:27,717 [INFO] ai_utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-08-04 05:12:27,718 [INFO] ai_utils.document_context_extractor: [DocContext] Heuristic task_type: 'user guide'
+2026-08-04 05:12:27,718 [INFO] ai_utils.document_context_extractor: [DocContext] Final context: {'prodname': 'npm_network_surface_report', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'user guide', 'document_keywords': ['user guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-08-04 05:12:27,718 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'npm_network_surface_report' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-08-04 05:12:27,718 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='user guide', method=heuristic, confidence=0.00
+2026-08-04 05:12:27,719 [INFO] ai_utils.core_log_parser: [CoreLogParser] Parsed transformation.log — pages=4, topics=18, files=20, submaps=1
+2026-08-04 05:12:27,719 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Conversion Summary ──────────────────────────────
+2026-08-04 05:12:27,719 [INFO] pipeline.enrich_runner: [ConversionSummary] pages=4, topics=18, files_written=20, submaps=1
+2026-08-04 05:12:27,719 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-08-04 05:12:27,720 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-08-04 05:12:27,720 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Pre-clean Corrections ──
+2026-08-04 05:12:27,728 [INFO] ai_utils.structural_fixer: [StructuralFix] table.xsl found — will chain before doc-type fixes
+2026-08-04 05:12:27,728 [INFO] ai_utils.structural_fixer: [StructuralFix] fix_p_warning_to_note.xsl found
+2026-08-04 05:12:27,728 [INFO] ai_utils.structural_fixer: [StructuralFix] fix_consecutive_p_to_list.xsl found
+2026-08-04 05:12:27,728 [INFO] ai_utils.structural_fixer: [StructuralFix] codeblock.xsl found — will merge consecutive codeblocks
+2026-08-04 05:12:27,729 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded task → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → task.xsl
+2026-08-04 05:12:27,729 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded concept → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → concept.xsl
+2026-08-04 05:12:27,729 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded reference → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → reference.xsl
+2026-08-04 05:12:27,729 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded map → map.xsl
+2026-08-04 05:12:27,729 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded bookmap → bookmap.xsl
+2026-08-04 05:12:27,729 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded glossentry → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → glossentry.xsl
+2026-08-04 05:12:27,730 [INFO] ai_utils.structural_fixer: [StructuralFix] Loaded topic → fix_p_warning_to_note.xsl → fix_consecutive_p_to_list.xsl → table.xsl → codeblock.xsl → topic.xsl
+2026-08-04 05:12:27,929 [INFO] ai_utils.structural_fixer: [StructuralFix] .dita done — processed=18, modified=0, unchanged=18, failed=0
+2026-08-04 05:12:27,936 [INFO] ai_utils.structural_fixer: [StructuralFix] Fixed duplicate DOCTYPE in npm_network_surface_report.ditamap
+2026-08-04 05:12:27,936 [INFO] ai_utils.structural_fixer: [StructuralFix] Modified ditamap: npm_network_surface_report.ditamap [map]
+2026-08-04 05:12:27,938 [INFO] ai_utils.structural_fixer: [StructuralFix] Fixed duplicate DOCTYPE in npmnetworksurfacereport.ditamap
+2026-08-04 05:12:27,938 [INFO] ai_utils.structural_fixer: [StructuralFix] Modified ditamap: npmnetworksurfacereport.ditamap [map]
+2026-08-04 05:12:27,938 [INFO] ai_utils.structural_fixer: [StructuralFix] .ditamap done — processed=2, modified=2, failed=0
+2026-08-04 05:12:27,939 [INFO] pipeline.enrich_runner: [EnrichPipeline] Pre-clean — status=completed, modified=0, failed=0
+2026-08-04 05:12:27,947 [INFO] layers.layer1234_enrichment: L1234 › '(active/configured)' npm_network_surface_report/activeconfigured.dita | images=0
+2026-08-04 05:12:27,949 [INFO] layers.layer1234_enrichment: L1234 › '1) axios (active)' npm_network_surface_report/axios_active.dita | images=0
+2026-08-04 05:12:27,951 [INFO] layers.layer1234_enrichment: L1234 › '6) Browser fetch (not npm, but active outbound behavior)' npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita | images=0
+2026-08-04 05:12:27,953 [INFO] layers.layer1234_enrichment: L1234 ⊘ empty body skip 'Findings: Outbound API/Network Calls' (npm_network_surface_report/findings_outbound_apinetwork_calls.dita)
+2026-08-04 05:12:27,953 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Findings: Outbound API/Network Calls' → type=concept, confidence=low
+2026-08-04 05:12:27,954 [INFO] layers.layer1234_enrichment: L1234 › 'Findings: Packages That Open Listener Ports' npm_network_surface_report/findings_packages_that_open_listener_ports.dita | images=0
+2026-08-04 05:12:27,955 [INFO] layers.layer1234_enrichment: L1234 › 'Installed but Not Clearly Active (from current code scan)' npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita | images=0
+2026-08-04 05:12:27,955 [INFO] layers.layer1234_enrichment: L1234 › '3) next' npm_network_surface_report/next.dita | images=0
+2026-08-04 05:12:27,956 [INFO] layers.layer1234_enrichment: L1234 › '5) Node built-in https (not npm, but active outbound network behavior)' npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita | images=0
+2026-08-04 05:12:27,956 [INFO] layers.layer1234_enrichment: L1234 › '2) nodemailer (active)' npm_network_surface_report/nodemailer_active.dita | images=0
+2026-08-04 05:12:27,957 [INFO] layers.layer1234_enrichment: L1234 › 'Notes / Risk Flags' npm_network_surface_report/notes_risk_flags.dita | images=0
+2026-08-04 05:12:27,958 [INFO] layers.layer1234_enrichment: L1234 › 'NPM Network Surface Report' npm_network_surface_report/npm_network_surface_report.dita | images=0
+2026-08-04 05:12:27,958 [INFO] layers.layer1234_enrichment: L1234 › 'Project Summary Matrix' npm_network_surface_report/project_summary_matrix.dita | images=0
+2026-08-04 05:12:27,959 [INFO] layers.layer1234_enrichment: L1234 › '4) razorpay (active package usage)' npm_network_surface_report/razorpay_active_package_usage.dita | images=0
+2026-08-04 05:12:27,960 [INFO] layers.layer1234_enrichment: L1234 › '4) react-scripts' npm_network_surface_report/reactscripts.dita | images=0
+2026-08-04 05:12:27,960 [INFO] layers.layer1234_enrichment: L1234 › 'Scope' npm_network_surface_report/scope.dita | images=0
+2026-08-04 05:12:27,961 [INFO] layers.layer1234_enrichment: L1234 ⊘ empty body skip '3) sib-api-v3-sdk and strapi-provider-email-sendinblue' (npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita)
+2026-08-04 05:12:27,961 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '3) sib-api-v3-sdk and strapi-provider-email-sendinblue' → type=concept, confidence=low
+2026-08-04 05:12:27,962 [INFO] layers.layer1234_enrichment: L1234 › '1) @strapi/strapi' npm_network_surface_report/strapistrapi.dita | images=0
+2026-08-04 05:12:27,962 [INFO] layers.layer1234_enrichment: L1234 › '2) vite' npm_network_surface_report/vite.dita | images=0
+2026-08-04 05:12:28,206 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,206 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '(active/configured)'
+2026-08-04 05:12:28,208 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→reference activeconfigured.dita
+2026-08-04 05:12:28,209 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,209 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc activeconfigured.dita (inserted)
+2026-08-04 05:12:28,210 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,211 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog activeconfigured.dita
+2026-08-04 05:12:28,211 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '(active/configured)' → type=reference, confidence=low
+2026-08-04 05:12:28,223 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,223 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '1) axios (active)'
+2026-08-04 05:12:28,224 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→reference axios_active.dita
+2026-08-04 05:12:28,224 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,225 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc axios_active.dita (inserted)
+2026-08-04 05:12:28,225 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,226 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog axios_active.dita
+2026-08-04 05:12:28,226 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '1) axios (active)' → type=reference, confidence=low
+2026-08-04 05:12:28,247 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,247 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '6) Browser fetch (not npm, but active outbound behavior)'
+2026-08-04 05:12:28,248 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:28,249 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,249 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc browser_fetch_not_npm_but_active_outbound_behavi.dita (inserted)
+2026-08-04 05:12:28,250 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,250 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:28,251 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '6) Browser fetch (not npm, but active outbound behavior)' → type=task, confidence=low
+2026-08-04 05:12:28,456 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,456 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Findings: Packages That Open Listener Ports'
+2026-08-04 05:12:28,457 [INFO] layers.layer1_topic_classifier: L1 ✓ topic→task findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:28,457 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,458 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc findings_packages_that_open_listener_ports.dita (inserted)
+2026-08-04 05:12:28,459 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,459 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:28,460 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Findings: Packages That Open Listener Ports' → type=task, confidence=low
+2026-08-04 05:12:28,531 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,531 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '3) next'
+2026-08-04 05:12:28,532 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task next.dita
+2026-08-04 05:12:28,532 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,533 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc next.dita (inserted)
+2026-08-04 05:12:28,534 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,534 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog next.dita
+2026-08-04 05:12:28,535 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '3) next' → type=task, confidence=low
+2026-08-04 05:12:28,606 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,606 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Installed but Not Clearly Active (from current code scan)'
+2026-08-04 05:12:28,607 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,607 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc installed_but_not_clearly_active_from_current_co.dita (inserted)
+2026-08-04 05:12:28,608 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,609 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog installed_but_not_clearly_active_from_current_co.dita
+2026-08-04 05:12:28,610 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Installed but Not Clearly Active (from current code scan)' → type=topic, confidence=low
+2026-08-04 05:12:28,709 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,709 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '5) Node built-in https (not npm, but active outbound network behavior)'
+2026-08-04 05:12:28,710 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:28,710 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,711 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc node_builtin_https_not_npm_but_active_outbound_n.dita (inserted)
+2026-08-04 05:12:28,711 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,712 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:28,713 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '5) Node built-in https (not npm, but active outbound network behavior)' → type=task, confidence=low
+2026-08-04 05:12:28,818 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,818 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '2) nodemailer (active)'
+2026-08-04 05:12:28,818 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→reference nodemailer_active.dita
+2026-08-04 05:12:28,819 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,820 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc nodemailer_active.dita (inserted)
+2026-08-04 05:12:28,820 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,821 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog nodemailer_active.dita
+2026-08-04 05:12:28,822 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '2) nodemailer (active)' → type=reference, confidence=low
+2026-08-04 05:12:28,852 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,852 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Notes / Risk Flags'
+2026-08-04 05:12:28,853 [INFO] layers.layer1_topic_classifier: L1 ✓ topic→reference notes_risk_flags.dita
+2026-08-04 05:12:28,853 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,854 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc notes_risk_flags.dita (inserted)
+2026-08-04 05:12:28,854 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,855 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog notes_risk_flags.dita
+2026-08-04 05:12:28,856 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Notes / Risk Flags' → type=reference, confidence=low
+2026-08-04 05:12:28,956 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:28,957 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'NPM Network Surface Report'
+2026-08-04 05:12:28,957 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,958 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc npm_network_surface_report.dita (inserted)
+2026-08-04 05:12:28,958 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:28,959 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog npm_network_surface_report.dita
+2026-08-04 05:12:28,960 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'NPM Network Surface Report' → type=topic, confidence=low
+2026-08-04 05:12:29,093 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,093 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Project Summary Matrix'
+2026-08-04 05:12:29,095 [INFO] layers.layer1_topic_classifier: L1 ✓ topic→reference project_summary_matrix.dita
+2026-08-04 05:12:29,096 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,096 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc project_summary_matrix.dita (inserted)
+2026-08-04 05:12:29,097 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,097 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog project_summary_matrix.dita
+2026-08-04 05:12:29,099 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Project Summary Matrix' → type=reference, confidence=low
+2026-08-04 05:12:29,102 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,103 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '4) razorpay (active package usage)'
+2026-08-04 05:12:29,103 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→reference razorpay_active_package_usage.dita
+2026-08-04 05:12:29,103 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,104 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc razorpay_active_package_usage.dita (inserted)
+2026-08-04 05:12:29,105 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,105 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog razorpay_active_package_usage.dita
+2026-08-04 05:12:29,106 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '4) razorpay (active package usage)' → type=reference, confidence=low
+2026-08-04 05:12:29,206 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,206 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '4) react-scripts'
+2026-08-04 05:12:29,207 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task reactscripts.dita
+2026-08-04 05:12:29,208 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,208 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc reactscripts.dita (inserted)
+2026-08-04 05:12:29,209 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,209 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog reactscripts.dita
+2026-08-04 05:12:29,210 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '4) react-scripts' → type=task, confidence=low
+2026-08-04 05:12:29,352 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,352 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '1) @strapi/strapi'
+2026-08-04 05:12:29,353 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task strapistrapi.dita
+2026-08-04 05:12:29,353 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,354 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc strapistrapi.dita (inserted)
+2026-08-04 05:12:29,354 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,355 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog strapistrapi.dita
+2026-08-04 05:12:29,356 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '1) @strapi/strapi' → type=task, confidence=low
+2026-08-04 05:12:29,374 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,374 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Scope'
+2026-08-04 05:12:29,375 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→reference scope.dita
+2026-08-04 05:12:29,376 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,376 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc scope.dita (inserted)
+2026-08-04 05:12:29,377 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,377 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog scope.dita
+2026-08-04 05:12:29,379 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Scope' → type=reference, confidence=low
+2026-08-04 05:12:29,467 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,467 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback '2) vite'
+2026-08-04 05:12:29,468 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task vite.dita
+2026-08-04 05:12:29,468 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,469 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc vite.dita (inserted)
+2026-08-04 05:12:29,470 [INFO] ai_utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-04 05:12:29,470 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog vite.dita
+2026-08-04 05:12:29,471 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched '2) vite' → type=task, confidence=low
+2026-08-04 05:12:29,474 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 18 topics processed
+2026-08-04 05:12:29,478 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 14 of 18 topics had type changed by AI
+2026-08-04 05:12:29,478 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/activeconfigured.dita             concept → reference (confidence=low)
+2026-08-04 05:12:29,478 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/axios_active.dita                 concept → reference (confidence=low)
+2026-08-04 05:12:29,478 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita concept → task (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/findings_packages_that_open_listener_ports.dita topic → task (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/next.dita                         concept → task (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita concept → task (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/nodemailer_active.dita            concept → reference (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/notes_risk_flags.dita             topic → reference (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/project_summary_matrix.dita       topic → reference (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/razorpay_active_package_usage.dita concept → reference (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/reactscripts.dita                 concept → task (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/scope.dita                        concept → reference (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/strapistrapi.dita                 concept → task (confidence=low)
+2026-08-04 05:12:29,479 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] npm_network_surface_report/vite.dita                         concept → task (confidence=low)
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/activeconfigured.dita   type=reference  shortdesc='Used or configured for Sendinblue/Brevo email API integrations.'
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['config', 'configured', 'adminpanel', 'metapercept', 'provider', 'sendinblue'] | indexterms=['config', 'configured', 'adminpanel']
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/axios_active.dita       type=reference  shortdesc='Observed across multiple projects for HTTP requests.'
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['axios', 'Metapercept', 'Training', 'active', 'Frontend', 'Observed'] | indexterms=['axios', 'Metapercept', 'Training']
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita type=task       shortdesc='Extensive API calls in frontends to CMS/backends and external endpoint…'
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['metapercept', 'Browser', 'fetch', 'active', 'outbound', 'behavior'] | indexterms=['metapercept', 'Browser', 'fetch']
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/findings_outbound_apinetwork_calls.dita type=concept    shortdesc=''
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=[] | indexterms=[]
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/findings_packages_that_open_listener_ports.dita type=task       shortdesc='These packages open local listener ports when corresponding scripts ar…'
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Findings', 'Packages', 'Open', 'Listener', 'Ports', 'These'] | indexterms=['Findings', 'Packages', 'Open']
+2026-08-04 05:12:29,480 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita type=topic      shortdesc='react-google-recaptcha : present in package manifests, but usage appea…'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['metapercept', 'current', 'Installed', 'Clearly', 'Active', 'react'] | indexterms=['metapercept', 'current', 'Installed']
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/next.dita               type=task       shortdesc='Scripts: next dev next start Project: Metapercept-Training2023-Fronten…'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Scripts', 'start', 'Project', 'Metapercept', 'Training', 'Frontend'] | indexterms=['Scripts', 'start', 'Project']
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita type=task       shortdesc='Prefetch scripts fetch remote CMS/blog data during dev/build.'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['scripts', 'fetch', 'Node', 'built', 'https', 'active'] | indexterms=['scripts', 'fetch', 'Node']
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/nodemailer_active.dita  type=reference  shortdesc='Used to send SMTP email from Strapi lifecycle hooks.'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['nodemailer', 'active', 'content', 'types', 'lifecycles', 'white'] | indexterms=['nodemailer', 'active', 'content']
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/notes_risk_flags.dita   type=reference  shortdesc='Multiple files contain hard-coded API keys or SMTP credentials in sour…'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Notes', 'Risk', 'Flags', 'Multiple', 'files', 'contain'] | indexterms=['Notes', 'Risk', 'Flags']
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/npm_network_surface_report.dita type=topic      shortdesc='Generated: 2026-07-08 Workspace: c:\Users\Metapercept\Desktop\Nilesh\m…'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Network', 'Surface', 'Report', 'Generated', 'Workspace', 'Users'] | indexterms=['Network', 'Surface', 'Report']
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/project_summary_matrix.dita type=reference  shortdesc='admin-metapercept : outbound via axios ; listener via react-scripts .'
+2026-08-04 05:12:29,481 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['outbound', 'listener', 'metapercept', 'fetch', 'frontend', 'strapi'] | indexterms=['outbound', 'listener', 'metapercept']
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/razorpay_active_package_usage.dita type=reference  shortdesc='Initialized in backend API handler for payment flow.'
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['razorpay', 'active', 'package', 'usage', 'Initialized', 'backend'] | indexterms=['razorpay', 'active', 'package']
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/reactscripts.dita       type=task       shortdesc='Script: react-scripts start Project: admin-metapercept'
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['react', 'scripts', 'Script', 'start', 'Project', 'admin'] | indexterms=['react', 'scripts', 'Script']
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/scope.dita              type=reference  shortdesc='This report identifies npm packages that:'
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Scope', 'report', 'identifies', 'packages', 'outbound', 'network'] | indexterms=['Scope', 'report', 'identifies']
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita type=concept    shortdesc=''
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=[] | indexterms=[]
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/strapistrapi.dita       type=task       shortdesc='Scripts: strapi develop strapi start Projects: blog-adminpanel-metaper…'
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['strapi', 'adminpanel', 'metapercept', 'Scripts', 'develop', 'start'] | indexterms=['strapi', 'adminpanel', 'metapercept']
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  npm_network_surface_report/vite.dita               type=task       shortdesc='Scripts: vite ( dev ) vite preview Projects: blog-metapercept careers-…'
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['metapercept', 'Scripts', 'preview', 'Projects', 'careers', 'portfolio'] | indexterms=['metapercept', 'Scripts', 'preview']
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=0
+2026-08-04 05:12:29,482 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-08-04 05:12:29,483 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/activeconfigured.dita
+2026-08-04 05:12:29,483 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/axios_active.dita
+2026-08-04 05:12:29,483 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:29,484 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/findings_outbound_apinetwork_calls.dita
+2026-08-04 05:12:29,484 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:29,484 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita
+2026-08-04 05:12:29,484 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/next.dita
+2026-08-04 05:12:29,484 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:29,484 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/nodemailer_active.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/notes_risk_flags.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/npm_network_surface_report.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/project_summary_matrix.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/razorpay_active_package_usage.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/reactscripts.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/scope.dita
+2026-08-04 05:12:29,485 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita
+2026-08-04 05:12:29,486 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/strapistrapi.dita
+2026-08-04 05:12:29,486 [INFO] layers.layer5_quality_autofix: L5 › npm_network_surface_report/vite.dita
+2026-08-04 05:12:29,486 [INFO] layers.layer5_quality_autofix: L5 › review 18/18 topics (0 skipped)
+2026-08-04 05:12:29,731 [WARNING] layers.layer5_quality_autofix: L5 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:29,731 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-08-04 05:12:29,731 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-08-04 05:12:29,731 [INFO] layers.layer5_quality_autofix: L5 › autofix: 0 broken
+2026-08-04 05:12:29,732 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-08-04 05:12:29,732 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-08-04 05:12:29,732 [INFO] layers.layer6_final_validation: L6 ── structural validation start
+2026-08-04 05:12:29,733 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/activeconfigured.dita — 1 issue(s)
+2026-08-04 05:12:29,734 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/axios_active.dita — 1 issue(s)
+2026-08-04 05:12:29,734 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita — 1 issue(s)
+2026-08-04 05:12:29,735 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/findings_outbound_apinetwork_calls.dita — 1 issue(s)
+2026-08-04 05:12:29,735 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/findings_packages_that_open_listener_ports.dita — 1 issue(s)
+2026-08-04 05:12:29,736 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita — 1 issue(s)
+2026-08-04 05:12:29,736 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/next.dita — 1 issue(s)
+2026-08-04 05:12:29,737 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita — 1 issue(s)
+2026-08-04 05:12:29,737 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/nodemailer_active.dita — 1 issue(s)
+2026-08-04 05:12:29,737 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/notes_risk_flags.dita — 1 issue(s)
+2026-08-04 05:12:29,738 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/npm_network_surface_report.dita — 1 issue(s)
+2026-08-04 05:12:29,738 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/project_summary_matrix.dita — 1 issue(s)
+2026-08-04 05:12:29,739 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/razorpay_active_package_usage.dita — 1 issue(s)
+2026-08-04 05:12:29,739 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/reactscripts.dita — 1 issue(s)
+2026-08-04 05:12:29,740 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/scope.dita — 1 issue(s)
+2026-08-04 05:12:29,740 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita — 1 issue(s)
+2026-08-04 05:12:29,741 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/strapistrapi.dita — 1 issue(s)
+2026-08-04 05:12:29,741 [INFO] layers.layer6_final_validation: L6 ⚠ npm_network_surface_report/vite.dita — 1 issue(s)
+2026-08-04 05:12:29,741 [INFO] layers.layer6_final_validation: L6 ✓ done pass=True acc=100% crit=0 err=0 warn=18
+2026-08-04 05:12:29,741 [INFO] layers.layer6_final_validation: L6 DTD schema start
+2026-08-04 05:12:29,742 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS activeconfigured.dita — 1 issue(s)
+2026-08-04 05:12:29,742 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS axios_active.dita — 1 issue(s)
+2026-08-04 05:12:29,742 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:29,743 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    findings_outbound_apinetwork_calls.dita
+2026-08-04 05:12:29,743 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:29,743 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    installed_but_not_clearly_active_from_current_co.dita
+2026-08-04 05:12:29,743 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    next.dita
+2026-08-04 05:12:29,744 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:29,744 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS nodemailer_active.dita — 1 issue(s)
+2026-08-04 05:12:29,744 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS notes_risk_flags.dita — 1 issue(s)
+2026-08-04 05:12:29,745 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    npm_network_surface_report.dita
+2026-08-04 05:12:29,745 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS project_summary_matrix.dita — 1 issue(s)
+2026-08-04 05:12:29,745 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS razorpay_active_package_usage.dita — 1 issue(s)
+2026-08-04 05:12:29,745 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    reactscripts.dita
+2026-08-04 05:12:29,746 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] WARNINGS scope.dita — 1 issue(s)
+2026-08-04 05:12:29,746 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    sibapiv3sdk_and_strapiprovideremailsendinblue.dita
+2026-08-04 05:12:29,746 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    strapistrapi.dita
+2026-08-04 05:12:29,746 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] VALID    vite.dita
+2026-08-04 05:12:29,746 [INFO] ai_utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=18/18
+2026-08-04 05:12:29,747 [INFO] layers.layer6_final_validation: L6 DTD schema pass=True valid=18/18
+2026-08-04 05:12:29,747 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-08-04 05:12:29,747 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-08-04 05:12:29,747 [INFO] ai_utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-04 05:12:29,749 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-04 05:12:29,751 [INFO] ai_utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-04 05:12:29,753 [INFO] ai_utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-04 05:12:29,753 [INFO] ai_utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-04 05:12:29,754 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/reactscripts.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,755 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/razorpay_active_package_usage.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,755 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/scope.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,756 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,756 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/findings_packages_that_open_listener_ports.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,757 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,757 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:29,757 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita' — <p> #1 is empty — remove or add content
+2026-08-04 05:12:29,758 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/next.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,758 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/vite.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,758 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/nodemailer_active.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,759 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/notes_risk_flags.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,759 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'npm_network_surface_report/strapistrapi.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-04 05:12:29,760 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/axios_active.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,760 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'npm_network_surface_report/findings_outbound_apinetwork_calls.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-04 05:12:29,760 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'npm_network_surface_report/findings_outbound_apinetwork_calls.dita' — <p> #1 is empty — remove or add content
+2026-08-04 05:12:29,760 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/project_summary_matrix.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,761 [WARNING] ai_utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'npm_network_surface_report/activeconfigured.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-04 05:12:29,761 [INFO] ai_utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=18 | dita_files=18, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-04 05:12:29,761 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=18
+2026-08-04 05:12:29,762 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-08-04 05:12:29,764 [INFO] ai_utils.structure_validator: [EnrichmentQuality] Post-AI check — 4 issues in 18 files (CRITICAL=0, WARNING=4)
+2026-08-04 05:12:29,764 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=4 (checks: shortdesc, keywords, indexterms)
+2026-08-04 05:12:29,764 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=18, fixed_by_ai=16, remaining=4, ai_obligations_missed=2, new_by_ai=14
+2026-08-04 05:12:29,765 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── 4-Gate DITA 2.x Validation ──
+2026-08-04 05:12:33,355 [INFO] pipeline.enrich_runner: [Validation] 1/20 — activeconfigured.dita
+2026-08-04 05:12:33,366 [INFO] pipeline.enrich_runner: [Validation] 2/20 — axios_active.dita
+2026-08-04 05:12:33,442 [INFO] pipeline.enrich_runner: [Validation] 3/20 — browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:33,508 [INFO] pipeline.enrich_runner: [Validation] 4/20 — findings_outbound_apinetwork_calls.dita
+2026-08-04 05:12:33,518 [INFO] pipeline.enrich_runner: [Validation] 5/20 — findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:33,630 [INFO] pipeline.enrich_runner: [Validation] 6/20 — installed_but_not_clearly_active_from_current_co.dita
+2026-08-04 05:12:33,645 [INFO] pipeline.enrich_runner: [Validation] 7/20 — next.dita
+2026-08-04 05:12:33,655 [INFO] pipeline.enrich_runner: [Validation] 8/20 — node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:33,665 [INFO] pipeline.enrich_runner: [Validation] 9/20 — nodemailer_active.dita
+2026-08-04 05:12:33,674 [INFO] pipeline.enrich_runner: [Validation] 10/20 — notes_risk_flags.dita
+2026-08-04 05:12:33,683 [INFO] pipeline.enrich_runner: [Validation] 11/20 — npm_network_surface_report.dita
+2026-08-04 05:12:33,693 [INFO] pipeline.enrich_runner: [Validation] 12/20 — project_summary_matrix.dita
+2026-08-04 05:12:33,703 [INFO] pipeline.enrich_runner: [Validation] 13/20 — razorpay_active_package_usage.dita
+2026-08-04 05:12:33,714 [INFO] pipeline.enrich_runner: [Validation] 14/20 — reactscripts.dita
+2026-08-04 05:12:33,724 [INFO] pipeline.enrich_runner: [Validation] 15/20 — scope.dita
+2026-08-04 05:12:33,733 [INFO] pipeline.enrich_runner: [Validation] 16/20 — sibapiv3sdk_and_strapiprovideremailsendinblue.dita
+2026-08-04 05:12:33,744 [INFO] pipeline.enrich_runner: [Validation] 17/20 — strapistrapi.dita
+2026-08-04 05:12:33,754 [INFO] pipeline.enrich_runner: [Validation] 18/20 — vite.dita
+2026-08-04 05:12:33,819 [INFO] pipeline.enrich_runner: [Validation] 19/20 — npm_network_surface_report.ditamap
+2026-08-04 05:12:33,828 [INFO] pipeline.enrich_runner: [Validation] 20/20 — npmnetworksurfacereport.ditamap
+2026-08-04 05:12:33,833 [INFO] ai_utils.validation_runner: [Validation] Done — files=20, violations=7 (errors=0, warnings=7)
+2026-08-04 05:12:33,833 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation — status=completed, violations=7, files_affected=7
+2026-08-04 05:12:33,836 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1/3 — 7 violation(s) remaining
+2026-08-04 05:12:33,841 [INFO] ai_utils.auto_fixer: [AutoFixer] Done — 0 file(s) fixed, 0 total fixes applied
+2026-08-04 05:12:33,841 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1 — fixed 0 in 0 file(s)
+2026-08-04 05:12:33,841 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: validation_fix_pass1.json
+2026-08-04 05:12:33,844 [INFO] pipeline.enrich_runner: [EnrichPipeline] No deterministic fixes applied — stopping iteration
+2026-08-04 05:12:33,845 [WARNING] ai_utils.auto_fixer: [ImagePlacement] Parse error in findings_outbound_apinetwork_calls.dita: StartTag: invalid element name, line 3, column 2 (findings_outbound_apinetwork_calls.dita, line 3)
+2026-08-04 05:12:33,846 [WARNING] ai_utils.auto_fixer: [ImagePlacement] Parse error in sibapiv3sdk_and_strapiprovideremailsendinblue.dita: StartTag: invalid element name, line 3, column 2 (sibapiv3sdk_and_strapiprovideremailsendinblue.dita, line 3)
+2026-08-04 05:12:33,847 [INFO] ai_utils.auto_fixer: [ImagePlacement] Done — 0 file(s) updated, 0 total fix(es)
+2026-08-04 05:12:33,847 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — 0 file(s) updated, 0 fix(es)
+2026-08-04 05:12:33,849 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-04 05:12:33,849 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-08-04 05:12:33,861 [INFO] layers.layer7_fix_agent: L7/Suggest ── Started ──
+2026-08-04 05:12:33,863 [INFO] layers.layer7_fix_agent: L7/Suggest 45 issues (pre-dedup)
+2026-08-04 05:12:33,863 [INFO] layers.layer7_fix_agent: L7/Suggest 43 unique issues
+2026-08-04 05:12:33,863 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/strapistrapi.dita
+2026-08-04 05:12:33,863 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/vite.dita
+2026-08-04 05:12:33,864 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/axios_active.dita
+2026-08-04 05:12:33,864 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/project_summary_matrix.dita
+2026-08-04 05:12:33,864 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:33,865 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/scope.dita
+2026-08-04 05:12:33,865 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/razorpay_active_package_usage.dita
+2026-08-04 05:12:33,865 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/vite.dita
+2026-08-04 05:12:33,865 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/axios_active.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_shortdesc npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/activeconfigured.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prolog npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/razorpay_active_package_usage.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/nodemailer_active.dita
+2026-08-04 05:12:33,866 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/browser_fetch_not_npm_but_active_outbound_behavi.dita
+2026-08-04 05:12:33,867 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/reactscripts.dita
+2026-08-04 05:12:33,867 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/nodemailer_active.dita
+2026-08-04 05:12:33,867 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/project_summary_matrix.dita
+2026-08-04 05:12:33,868 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/axios_active.dita
+2026-08-04 05:12:33,868 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:33,868 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prolog npm_network_surface_report/findings_outbound_apinetwork_calls.dita
+2026-08-04 05:12:33,868 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/scope.dita
+2026-08-04 05:12:33,869 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/notes_risk_flags.dita
+2026-08-04 05:12:33,869 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/findings_packages_that_open_listener_ports.dita
+2026-08-04 05:12:33,869 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/scope.dita
+2026-08-04 05:12:33,869 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/notes_risk_flags.dita
+2026-08-04 05:12:33,869 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/activeconfigured.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/nodemailer_active.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/installed_but_not_clearly_active_from_current_co.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/reactscripts.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/npm_network_surface_report.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/node_builtin_https_not_npm_but_active_outbound_n.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/strapistrapi.dita
+2026-08-04 05:12:33,870 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/activeconfigured.dita
+2026-08-04 05:12:33,871 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_shortdesc npm_network_surface_report/findings_outbound_apinetwork_calls.dita
+2026-08-04 05:12:33,871 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl dtd_violation npm_network_surface_report/notes_risk_flags.dita
+2026-08-04 05:12:33,871 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/next.dita
+2026-08-04 05:12:33,871 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title npm_network_surface_report/razorpay_active_package_usage.dita
+2026-08-04 05:12:33,871 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname npm_network_surface_report/project_summary_matrix.dita
+2026-08-04 05:12:33,871 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps npm_network_surface_report/next.dita
+2026-08-04 05:12:34,254 [WARNING] layers.layer7_fix_agent: L7/Suggest ✗ Claude npm_network_surface_report/sibapiv3sdk_and_strapiprovideremailsendinblue.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:34,282 [WARNING] layers.layer7_fix_agent: L7/Suggest ✗ Claude npm_network_surface_report/findings_outbound_apinetwork_calls.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-04 05:12:34,285 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ 43 suggestions
+2026-08-04 05:12:34,287 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ saved 43 suggestions
+2026-08-04 05:12:34,287 [INFO] layers.layer7_fix_agent: L7/Suggest ── Done ──
+2026-08-04 05:12:34,287 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=43
+2026-08-04 05:12:34,293 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 0, 'ul': 20, 'table': 0, 'image': 0, 'crosslink': 0, 'hyperlink': 0, 'concept': 0, 'task': 7, 'reference': 7, 'topic': 2}
+2026-08-04 05:12:34,295 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-04 05:12:34,296 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: pre_enrichment.json
+2026-08-04 05:12:34,298 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: post_enrichment.json
+2026-08-04 05:12:34,299 [INFO] pipeline.enrich_runner: [EnrichPipeline] Summary log written: ai_enrichment_summary.log
+2026-08-04 05:12:34,299 [INFO] pipeline.enrich_runner: [EnrichPipeline] Migration summary updated with AI enrichment results
+2026-08-04 05:12:34,300 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-04 05:12:34,300 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : ai_enrichment_full.log
+2026-08-04 05:12:34,300 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reports  : aienrichment
+2026-08-04 05:12:34,300 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-04 05:12:34,340 [INFO] pipeline.enrich_runner: [EnrichPipeline] Unescape applied to 18 file(s)
+2026-08-04 05:12:34,341 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment

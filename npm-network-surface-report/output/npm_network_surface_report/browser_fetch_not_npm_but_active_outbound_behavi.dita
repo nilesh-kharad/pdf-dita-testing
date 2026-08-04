@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="id-browser_fetch_not_npm_but_active_outbound_behavi" xml:lang="en-us">
+   <title>6) Browser fetch (not npm, but active outbound behavior)</title>
+   <shortdesc>Extensive API calls in frontends to CMS/backends and external endpoints.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>metapercept</keyword>
+        <keyword>Browser</keyword>
+        <keyword>fetch</keyword>
+        <keyword>active</keyword>
+        <keyword>outbound</keyword>
+        <keyword>behavior</keyword>
+        <indexterm>metapercept</indexterm>
+        <indexterm>Browser</indexterm>
+        <indexterm>fetch</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Extensive API calls in frontends to CMS/backends and external endpoints.</p><p>Representative evidence:</p><ul>
+         <li>metapercept-main/src/services/apiService.js</li>
+         <li>metapercept-unified/src/services/apiService.js</li>
+         <li>portfolio-metapercept/src/components/*</li>
+         <li>careers-metapercept/src/pages/*</li>
+         <li>blog-metapercept/src/contexts/BlogDataContext.jsx</li>
+      </ul>
+  </context></taskbody>
+</task>

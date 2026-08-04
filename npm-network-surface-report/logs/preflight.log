@@ -1,0 +1,33 @@
+================================================================================
+ metR PDF DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+  Source file          : npm-network-surface-report.pdf
+  Total pages          : 4
+  Pages with text      : 4
+  Pages without text   : 0
+  Total chars          : 4,844
+  Status               : Digital PDF detected
+  Paper type           : A4
+
+--------------------------------------------------------------------------------
+  PAGE SIZE DETECTION
+  (nearest-size match, tolerance = ±0.8 cm x ±2 cm, digital or scanned)
+--------------------------------------------------------------------------------
+  Page    1:  595.30 x  841.89 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    2:  595.30 x  841.89 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    3:  595.30 x  841.89 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+  Page    4:  595.30 x  841.89 pt ( 21.00 x  29.70 cm) -> A4         (Portrait) [Δ0.00 cm x Δ0.00 cm] digital
+
+--------------------------------------------------------------------------------
+Preflight checks (4 pages)
+
+4 pages checked with 0 warning(s) and 0 non-blocking error(s).
+--------------------------------------------------------------------------------
+ Started               : 2026-08-04 05:12:18 UTC
+ Completed             : 2026-08-04 05:12:18 UTC
+ Duration              : 0.02s
+ Overall Status        : SUCCESS
+
+================================================================================
+[GUI] Success: Pre-flight analysis completed successfully.
+================================================================================
