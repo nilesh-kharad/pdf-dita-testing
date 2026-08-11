@@ -1,0 +1,158 @@
+{
+  "job_id": "71d83c4f-ee3f-45b7-b8f9-11646f32aae0",
+  "output_dir": "/app/Storage/71d83c4f-ee3f-45b7-b8f9-11646f32aae0/transformed output",
+  "run_at": "2026-08-11T09:03:34.612213+00:00",
+  "files_discovered": {
+    "dita_file_count": 7,
+    "dita_files": [
+      "approval/approval.dita",
+      "inspection_supervisor_responsibilities.dita",
+      "procedure/procedure.dita",
+      "purpose/purpose.dita",
+      "reference/document_classification.dita",
+      "reference/reference.dita",
+      "revision_history/revision_history.dita"
+    ],
+    "ditamap_file_count": 6,
+    "ditamap_files": [
+      "approval_map.ditamap",
+      "inspection_supervisor_responsibilities.ditamap",
+      "procedure_map.ditamap",
+      "purpose_map.ditamap",
+      "reference_map.ditamap",
+      "revision_history_map.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "maintenance procedures",
+    "document_keywords": [
+      "maintenance procedures"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "inspection_supervisor_responsibilities.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "purpose/purpose.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "revision_history/revision_history.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "revision_history/revision_history.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 7
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "revision_history/revision_history.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/document_classification.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/reference.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "approval/approval.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "approval/approval.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 8
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "approval/approval.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "procedure/procedure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 7,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 11,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_shortdesc": 7,
+      "section_missing_title": 2,
+      "table_missing_title": 2
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [],
+    "errors": [],
+    "summary": {
+      "fixed_count": 0,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  },
+  "validation": {
+    "status": "completed",
+    "total_violations": 0,
+    "files_with_violations": 0,
+    "violations_by_severity": {
+      "error": 0,
+      "warning": 0
+    },
+    "violations_by_gate": {
+      "gate1": 0,
+      "gate2": 0,
+      "gate3": 0,
+      "gate4": 0
+    },
+    "details": []
+  }
+}

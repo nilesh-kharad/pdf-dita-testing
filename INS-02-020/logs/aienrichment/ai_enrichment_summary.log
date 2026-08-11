@@ -1,0 +1,60 @@
+metR DOCX DocMigrate — AI ENRICHMENT REPORT
+================================================================================
+ DITA OUTPUT               : transformed output
+ Total Files               : 13 (7 DITA, 6 DITAMAP)
+ Topics Reclassified       : 6
+ Shortdescs Generated      : 7
+ Metadata Generated        : 7
+ Alt Text Filled           : 0 of 0 images
+ Author Suggestions        : 2 (all pending review)
+ AI Enrichment Mode        : AI available for this run
+ Overall Status            : WARNING (issues remain — manual review required)
+--------------------------------------------------------------------------------
+
+PRE-CLEAN CORRECTIONS APPLIED
+--------------------------------------------------------------------------------
+ Structural Pre-fixes       : 0 files modified, 0 failed
+ Zone 1 Auto-fixes         : 0 applied
+--------------------------------------------------------------------------------
+
+POST ENRICHMENT & VALIDATION (4-gate DITA 2.x validation)
+--------------------------------------------------------------------------------
+ Files validated           : 13
+ Files with violations     : 0
+ Total violations          : 0  (0 ERROR, 0 WARNING)
+   Gate 1 (vocabulary)     : 0
+   Gate 2 (structure)      : 0
+   Gate 3 (content model)  : 0
+   Gate 4 (attributes)     : 0
+ Fix passes applied        : None (0 violations found)
+--------------------------------------------------------------------------------
+ MANUAL ACTION REQUIRED — please review before packaging
+--------------------------------------------------------------------------------
+
+ 1. Add product name to all 7 files            [HIGH PRIORITY]
+    No product name could be determined automatically.
+    Every topic's <prodname> field is currently empty.
+
+ 2. Review 2 pending author suggestions before final packaging:
+      table_missing_title             2
+
+ 3. 2 structural issues remain open after enrichment:
+      table_missing_title             2
+
+--------------------------------------------------------------------------------
+
+SUPPORTING REPORTS (aienrichment folder)
+--------------------------------------------------------------------------------
+ File                                Contents
+--------------------------------------------------------------------------------
+ pre_enrichment.json                 File inventory, structural-issue scan, and
+                                      initial 4-gate DITA validation.
+ post_enrichment.json                Full per-file enrichment results, quality
+                                      metrics and validation fixes.
+ author_suggestions.json             All 2 author suggestions listed above,
+                                      with file, line, and suggested fix.
+ topic_inference_map.json            Per-topic classification detail — type,
+                                      confidence, and reasoning for every file.
+ ai_enrichment_full.log              Full technical run log (all layers, all
+                                      files) — for troubleshooting use only.
+--------------------------------------------------------------------------------

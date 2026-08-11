@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
+<topic id="purpose" xml:lang="en-us">
+   <title>Purpose</title>
+   <shortdesc>To define the specific roles, responsibilities, and tasks of the Inspection Supervisor in all O-I</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Purpose</keyword>
+        <keyword>define</keyword>
+        <keyword>specific</keyword>
+        <keyword>roles</keyword>
+        <keyword>responsibilities</keyword>
+        <keyword>tasks</keyword>
+        <indexterm>Purpose</indexterm>
+        <indexterm>define</indexterm>
+        <indexterm>specific</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <body>
+      <p>To define the specific roles, responsibilities, and tasks of the Inspection Supervisor in all O-I plants.</p>
+   </body>
+</topic>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
+<topic id="document_classification" xml:lang="en-us">
+   <title>Document Classification</title>
+   <shortdesc>Fundamentals:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Document</keyword>
+        <keyword>Classification</keyword>
+        <keyword>Organization</keyword>
+        <keyword>Training</keyword>
+        <keyword>Fundamentals</keyword>
+        <indexterm>Document</indexterm>
+        <indexterm>Classification</indexterm>
+        <indexterm>Organization</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <body>
+      <ul id="ul_09022301">
+         <li>Organization and Training</li>
+      </ul>
+      <p>Fundamentals:</p>
+      <ul id="ul_09022302">
+         <li>INS- 313</li>
+      </ul>
+   </body>
+</topic>

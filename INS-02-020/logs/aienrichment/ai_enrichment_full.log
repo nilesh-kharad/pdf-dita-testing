@@ -1,0 +1,237 @@
+2026-08-11 09:03:29,559 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created at: .tmp_backup_transformed output
+2026-08-11 09:03:29,559 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 7 .dita files, 6 .ditamap files
+2026-08-11 09:03:29,560 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 7 DITA files
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 7
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] approval/approval.dita                             type=reference  shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] inspection_supervisor_responsibilities.dita        type=concept    shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] procedure/procedure.dita                           type=task       shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] purpose/purpose.dita                               type=concept    shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] reference/document_classification.dita             type=concept    shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] reference/reference.dita                           type=concept    shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] revision_history/revision_history.dita             type=reference  shortdesc=NO  prolog=NO 
+2026-08-11 09:03:29,561 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-08-11 09:03:29,561 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-11 09:03:29,564 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-11 09:03:29,565 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-11 09:03:29,566 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-11 09:03:29,566 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-11 09:03:29,582 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'inspection_supervisor_responsibilities.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,583 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'purpose/purpose.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,583 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'revision_history/revision_history.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-11 09:03:29,584 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-11 09:03:29,584 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'revision_history/revision_history.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,584 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'reference/document_classification.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,585 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'reference/reference.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,585 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'approval/approval.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-11 09:03:29,585 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-11 09:03:29,585 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'approval/approval.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,587 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'procedure/procedure.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-11 09:03:29,588 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=11 | dita_files=7, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-11 09:03:29,588 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=11 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-08-11 09:03:29,588 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-08-11 09:03:29,589 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 0 fix(es) applied, 0 write failure(s)
+2026-08-11 09:03:29,589 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=0, write_failures=0
+2026-08-11 09:03:29,892 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY is invalid or expired — heuristic fallbacks will be used.
+2026-08-11 09:03:29,896 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-08-11 09:03:29,898 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 7 files found, stem='inspection_supervisor_responsibilities'
+2026-08-11 09:03:29,898 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: inspection_supervisor_responsibilities.ditamap
+2026-08-11 09:03:29,899 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 7 files
+2026-08-11 09:03:30,190 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:30,190 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-08-11 09:03:30,191 [INFO] utils.document_context_extractor: [DocContext] Skipping 'The Inspection Supervisor' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,191 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Personnel' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,191 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Plant Network Leader' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Supervisor' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Safety' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Personnel Training' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Device Setup' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Maintenance' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Inspection Machine Container' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Installed Inspection Equipment' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Bob Morin' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-11 09:03:30,192 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'maintenance procedures'
+2026-08-11 09:03:30,193 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'inspection_supervisor_responsibilities', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'maintenance procedures', 'document_keywords': ['maintenance procedures'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-08-11 09:03:30,193 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'inspection_supervisor_responsibilities' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-08-11 09:03:30,193 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='maintenance procedures', method=heuristic, confidence=0.00
+2026-08-11 09:03:30,193 [INFO] utils.core_log_parser: [CoreLogParser] Parsed postflight.log — 7 DITA files, root=approval_map.ditamap
+2026-08-11 09:03:30,193 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Backend Report (postflight.log) ──────────────
+2026-08-11 09:03:30,193 [INFO] pipeline.enrich_runner: [BackendReport] [Core Engine] dita_files=7, ditamap_files=6, root_map=approval_map.ditamap, images=0
+2026-08-11 09:03:30,193 [INFO] pipeline.enrich_runner: [BackendReport] DTD validation: all files passed
+2026-08-11 09:03:30,193 [INFO] pipeline.enrich_runner: [EnrichPipeline] ────────────────────────────────────────────────────
+2026-08-11 09:03:30,194 [INFO] utils.structural_fixer: [StructuralFix] Loaded task → task.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,194 [INFO] utils.structural_fixer: [StructuralFix] Loaded concept → concept.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,194 [INFO] utils.structural_fixer: [StructuralFix] Loaded reference → reference.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,194 [INFO] utils.structural_fixer: [StructuralFix] Loaded map → map.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,195 [INFO] utils.structural_fixer: [StructuralFix] Loaded bookmap → bookmap.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,195 [INFO] utils.structural_fixer: [StructuralFix] Loaded glossentry → glossentry.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,195 [INFO] utils.structural_fixer: [StructuralFix] Loaded topic → topic.xsl (with 5 pre-process step(s))
+2026-08-11 09:03:30,502 [INFO] utils.structural_fixer: [StructuralFix] Done — processed=7, modified=0, unchanged=7, failed=0
+2026-08-11 09:03:30,502 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-08-11 09:03:30,509 [INFO] layers.layer1234_enrichment: L1234 › 'Approval' approval/approval.dita
+2026-08-11 09:03:30,511 [INFO] layers.layer1234_enrichment: L1234 › 'Inspection Supervisor Responsibilities' inspection_supervisor_responsibilities.dita
+2026-08-11 09:03:30,515 [INFO] layers.layer1234_enrichment: L1234 › 'Procedure' procedure/procedure.dita
+2026-08-11 09:03:30,516 [INFO] layers.layer1234_enrichment: L1234 › 'Purpose' purpose/purpose.dita
+2026-08-11 09:03:30,518 [INFO] layers.layer1234_enrichment: L1234 › 'Document Classification' reference/document_classification.dita
+2026-08-11 09:03:30,520 [INFO] layers.layer1234_enrichment: L1234 › 'Reference' reference/reference.dita
+2026-08-11 09:03:30,522 [INFO] layers.layer1234_enrichment: L1234 › 'Revision History' revision_history/revision_history.dita
+2026-08-11 09:03:30,745 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:30,745 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Inspection Supervisor Responsibilities'
+2026-08-11 09:03:30,752 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,752 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc inspection_supervisor_responsibilities.dita
+2026-08-11 09:03:30,753 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,754 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog inspection_supervisor_responsibilities.dita
+2026-08-11 09:03:30,754 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Inspection Supervisor Responsibilities' → type=concept, confidence=low
+2026-08-11 09:03:30,778 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:30,779 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Purpose'
+2026-08-11 09:03:30,780 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic purpose.dita
+2026-08-11 09:03:30,780 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,780 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc purpose.dita
+2026-08-11 09:03:30,781 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,781 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog purpose.dita
+2026-08-11 09:03:30,782 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Purpose' → type=topic, confidence=low
+2026-08-11 09:03:30,786 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:30,786 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Procedure'
+2026-08-11 09:03:30,789 [INFO] layers.layer1_topic_classifier: L1 ✓ task→concept procedure.dita
+2026-08-11 09:03:30,789 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,790 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc procedure.dita
+2026-08-11 09:03:30,791 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,791 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog procedure.dita
+2026-08-11 09:03:30,793 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Procedure' → type=concept, confidence=low
+2026-08-11 09:03:30,794 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:30,794 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Document Classification'
+2026-08-11 09:03:30,795 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic document_classification.dita
+2026-08-11 09:03:30,795 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,796 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc document_classification.dita
+2026-08-11 09:03:30,796 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,797 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog document_classification.dita
+2026-08-11 09:03:30,797 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Document Classification' → type=topic, confidence=low
+2026-08-11 09:03:30,806 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:30,806 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Approval'
+2026-08-11 09:03:30,807 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept approval.dita
+2026-08-11 09:03:30,807 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,808 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc approval.dita
+2026-08-11 09:03:30,809 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:30,809 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog approval.dita
+2026-08-11 09:03:30,810 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Approval' → type=concept, confidence=low
+2026-08-11 09:03:31,000 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:31,000 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Reference'
+2026-08-11 09:03:31,001 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→topic reference.dita
+2026-08-11 09:03:31,001 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:31,001 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc reference.dita
+2026-08-11 09:03:31,002 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:31,003 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog reference.dita
+2026-08-11 09:03:31,003 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Reference' → type=topic, confidence=low
+2026-08-11 09:03:31,042 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:31,042 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Revision History'
+2026-08-11 09:03:31,044 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept revision_history.dita
+2026-08-11 09:03:31,044 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:31,044 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc revision_history.dita
+2026-08-11 09:03:31,045 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-11 09:03:31,045 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog revision_history.dita
+2026-08-11 09:03:31,046 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Revision History' → type=concept, confidence=low
+2026-08-11 09:03:31,050 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 7 topics processed
+2026-08-11 09:03:31,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 6 of 7 topics had type changed by AI
+2026-08-11 09:03:31,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] approval/approval.dita                                       reference → concept (confidence=low)
+2026-08-11 09:03:31,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] procedure/procedure.dita                                     task → concept (confidence=low)
+2026-08-11 09:03:31,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] purpose/purpose.dita                                         concept → topic (confidence=low)
+2026-08-11 09:03:31,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] reference/document_classification.dita                       concept → topic (confidence=low)
+2026-08-11 09:03:31,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] reference/reference.dita                                     concept → topic (confidence=low)
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] revision_history/revision_history.dita                       reference → concept (confidence=low)
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  approval/approval.dita                             type=concept    shortdesc='Sanctioning Representatives of the Global Team'
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Approval', 'Global', 'America', 'Sanctioning', 'Representatives', 'Team'] | indexterms=['Approval', 'Global', 'America']
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  inspection_supervisor_responsibilities.dita        type=concept    shortdesc='2019-09-25'
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Inspection', 'Supervisor', 'Responsibilities'] | indexterms=['Inspection', 'Supervisor', 'Responsibilities']
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  procedure/procedure.dita                           type=concept    shortdesc='The Inspection Supervisor shall be identified in each plant.'
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Inspection', 'shall', 'Supervisor', 'Personnel', 'ensure', 'Procedure'] | indexterms=['Inspection', 'shall', 'Supervisor']
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  purpose/purpose.dita                               type=topic      shortdesc='To define the specific roles, responsibilities, and tasks of the Inspe…'
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Purpose', 'define', 'specific', 'roles', 'responsibilities', 'tasks'] | indexterms=['Purpose', 'define', 'specific']
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  reference/document_classification.dita             type=topic      shortdesc='Fundamentals:'
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Document', 'Classification', 'Organization', 'Training', 'Fundamentals'] | indexterms=['Document', 'Classification', 'Organization']
+2026-08-11 09:03:31,055 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  reference/reference.dita                           type=topic      shortdesc='MOE-02-043Plant Network Leader Roles and Responsibilities INS-02-001 I…'
+2026-08-11 09:03:31,056 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Inspection', 'Reference', 'Plant', 'Network', 'Leader', 'Roles'] | indexterms=['Inspection', 'Reference', 'Plant']
+2026-08-11 09:03:31,056 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  revision_history/revision_history.dita             type=concept    shortdesc='2015-04-17 Original Issue 2015-10-13 Approved by Bob Morin, Global Ins…'
+2026-08-11 09:03:31,056 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Inspection', 'Leader', 'Revision', 'History', 'Approved', 'Morin'] | indexterms=['Inspection', 'Leader', 'Revision']
+2026-08-11 09:03:31,056 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=0
+2026-08-11 09:03:31,057 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-08-11 09:03:31,057 [INFO] layers.layer5_quality_autofix: L4 › approval/approval.dita
+2026-08-11 09:03:31,057 [INFO] layers.layer5_quality_autofix: L4 › inspection_supervisor_responsibilities.dita
+2026-08-11 09:03:31,058 [INFO] layers.layer5_quality_autofix: L4 › procedure/procedure.dita
+2026-08-11 09:03:31,058 [INFO] layers.layer5_quality_autofix: L4 › purpose/purpose.dita
+2026-08-11 09:03:31,058 [INFO] layers.layer5_quality_autofix: L4 › reference/document_classification.dita
+2026-08-11 09:03:31,058 [INFO] layers.layer5_quality_autofix: L4 › reference/reference.dita
+2026-08-11 09:03:31,058 [INFO] layers.layer5_quality_autofix: L4 › revision_history/revision_history.dita
+2026-08-11 09:03:31,058 [INFO] layers.layer5_quality_autofix: L4 › review 7/7 topics (0 skipped)
+2026-08-11 09:03:31,345 [WARNING] layers.layer5_quality_autofix: L4 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-11 09:03:31,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-08-11 09:03:31,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-08-11 09:03:31,345 [INFO] layers.layer5_quality_autofix: L4 › autofix: 0 broken
+2026-08-11 09:03:31,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-08-11 09:03:31,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-08-11 09:03:31,346 [INFO] layers.layer6_final_validation: L5 ── structural validation start
+2026-08-11 09:03:31,347 [INFO] layers.layer6_final_validation: L5 ⚠ approval/approval.dita — 1 issue(s)
+2026-08-11 09:03:31,347 [INFO] layers.layer6_final_validation: L5 ⚠ inspection_supervisor_responsibilities.dita — 1 issue(s)
+2026-08-11 09:03:31,348 [INFO] layers.layer6_final_validation: L5 ⚠ procedure/procedure.dita — 1 issue(s)
+2026-08-11 09:03:31,349 [INFO] layers.layer6_final_validation: L5 ⚠ purpose/purpose.dita — 1 issue(s)
+2026-08-11 09:03:31,349 [INFO] layers.layer6_final_validation: L5 ⚠ reference/document_classification.dita — 1 issue(s)
+2026-08-11 09:03:31,350 [INFO] layers.layer6_final_validation: L5 ⚠ reference/reference.dita — 1 issue(s)
+2026-08-11 09:03:31,351 [INFO] layers.layer6_final_validation: L5 ⚠ revision_history/revision_history.dita — 1 issue(s)
+2026-08-11 09:03:31,351 [INFO] layers.layer6_final_validation: L5 ✓ done pass=True acc=100% crit=0 err=0 warn=7
+2026-08-11 09:03:31,351 [INFO] layers.layer6_final_validation: L5 DTD schema start
+2026-08-11 09:03:31,351 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    approval.dita
+2026-08-11 09:03:31,352 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    inspection_supervisor_responsibilities.dita
+2026-08-11 09:03:31,352 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    procedure.dita
+2026-08-11 09:03:31,352 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    purpose.dita
+2026-08-11 09:03:31,353 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    document_classification.dita
+2026-08-11 09:03:31,353 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    reference.dita
+2026-08-11 09:03:31,353 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    revision_history.dita
+2026-08-11 09:03:31,353 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=7/7
+2026-08-11 09:03:31,354 [INFO] layers.layer6_final_validation: L5 DTD schema pass=True valid=7/7
+2026-08-11 09:03:31,354 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-08-11 09:03:31,354 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-08-11 09:03:31,354 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-11 09:03:31,356 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-11 09:03:31,357 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-11 09:03:31,359 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-11 09:03:31,359 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-11 09:03:31,360 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'revision_history/revision_history.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-11 09:03:31,361 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'approval/approval.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-11 09:03:31,362 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=2 | dita_files=7, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-11 09:03:31,362 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=2
+2026-08-11 09:03:31,363 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-08-11 09:03:31,364 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 0 issues in 7 files (CRITICAL=0, WARNING=0)
+2026-08-11 09:03:31,364 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=0 (checks: shortdesc, keywords, indexterms)
+2026-08-11 09:03:31,364 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=0, fixed_by_ai=9, remaining=2, ai_obligations_missed=0, new_by_ai=0
+2026-08-11 09:03:34,229 [INFO] pipeline.enrich_runner: [Validation] 1/13 — approval.dita
+2026-08-11 09:03:34,240 [INFO] pipeline.enrich_runner: [Validation] 2/13 — inspection_supervisor_responsibilities.dita
+2026-08-11 09:03:34,252 [INFO] pipeline.enrich_runner: [Validation] 3/13 — procedure.dita
+2026-08-11 09:03:34,321 [INFO] pipeline.enrich_runner: [Validation] 4/13 — purpose.dita
+2026-08-11 09:03:34,332 [INFO] pipeline.enrich_runner: [Validation] 5/13 — document_classification.dita
+2026-08-11 09:03:34,342 [INFO] pipeline.enrich_runner: [Validation] 6/13 — reference.dita
+2026-08-11 09:03:34,353 [INFO] pipeline.enrich_runner: [Validation] 7/13 — revision_history.dita
+2026-08-11 09:03:34,558 [INFO] pipeline.enrich_runner: [Validation] 8/13 — approval_map.ditamap
+2026-08-11 09:03:34,568 [INFO] pipeline.enrich_runner: [Validation] 9/13 — inspection_supervisor_responsibilities.ditamap
+2026-08-11 09:03:34,577 [INFO] pipeline.enrich_runner: [Validation] 10/13 — procedure_map.ditamap
+2026-08-11 09:03:34,586 [INFO] pipeline.enrich_runner: [Validation] 11/13 — purpose_map.ditamap
+2026-08-11 09:03:34,595 [INFO] pipeline.enrich_runner: [Validation] 12/13 — reference_map.ditamap
+2026-08-11 09:03:34,603 [INFO] pipeline.enrich_runner: [Validation] 13/13 — revision_history_map.ditamap
+2026-08-11 09:03:34,608 [INFO] utils.validation_runner: [Validation] Done — files=13, violations=0 (errors=0, warnings=0)
+2026-08-11 09:03:34,608 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation — status=completed, violations=0, files_affected=0
+2026-08-11 09:03:34,613 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-11 09:03:34,613 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-08-11 09:03:34,625 [INFO] layers.layer7_fix_agent: L6/Suggest ── Started ──
+2026-08-11 09:03:34,626 [INFO] layers.layer7_fix_agent: L6/Suggest 2 issues (pre-dedup)
+2026-08-11 09:03:34,626 [INFO] layers.layer7_fix_agent: L6/Suggest 2 unique issues
+2026-08-11 09:03:34,626 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl table_missing_title revision_history/revision_history.dita
+2026-08-11 09:03:34,629 [INFO] layers.layer7_fix_agent: L6/Suggest tmpl table_missing_title approval/approval.dita
+2026-08-11 09:03:34,634 [INFO] layers.layer7_fix_agent: L6/Suggest ✓ saved 2 suggestions
+2026-08-11 09:03:34,634 [INFO] layers.layer7_fix_agent: L6/Suggest ── Done ──
+2026-08-11 09:03:34,634 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=2
+2026-08-11 09:03:34,639 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 1, 'ul': 7, 'table': 2, 'image': 0, 'crosslink': 0, 'hyperlink': 0, 'concept': 4, 'task': 0, 'reference': 0, 'topic': 3}
+2026-08-11 09:03:34,641 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-11 09:03:34,641 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: pre_enrichment.json
+2026-08-11 09:03:34,642 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: post_enrichment.json
+2026-08-11 09:03:34,642 [INFO] pipeline.enrich_runner: [EnrichPipeline] Summary log written: ai_enrichment_summary.log
+2026-08-11 09:03:34,643 [INFO] pipeline.enrich_runner: [EnrichPipeline] migration_summary.log updated with AI enrichment values
+2026-08-11 09:03:34,658 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment

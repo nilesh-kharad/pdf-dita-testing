@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="inspection_supervisor_responsibilities" xml:lang="en-us">
+   <title>Inspection Supervisor Responsibilities</title>
+   <topicmeta>
+      <critdates>
+         <created date="2024-05-07"/>
+         <revised modified="2024-05-08"/>
+      </critdates>
+   </topicmeta>
+   <topicref href="inspection_supervisor_responsibilities.dita"><topicmeta><navtitle>Inspection Supervisor Responsibilities</navtitle></topicmeta></topicref>
+   <topicref href="purpose_map.ditamap" format="ditamap"><topicmeta><navtitle>Purpose</navtitle></topicmeta></topicref>
+   <topicref href="reference_map.ditamap" format="ditamap"><topicmeta><navtitle>Reference</navtitle></topicmeta></topicref>
+   <topicref href="procedure_map.ditamap" format="ditamap"><topicmeta><navtitle>Procedure</navtitle></topicmeta></topicref>
+   <topicref href="approval_map.ditamap" format="ditamap"><topicmeta><navtitle>Approval</navtitle></topicmeta></topicref>
+   <topicref href="revision_history_map.ditamap" format="ditamap"><topicmeta><navtitle>Revision History</navtitle></topicmeta></topicref>
+</map>

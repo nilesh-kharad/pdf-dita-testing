@@ -1,0 +1,499 @@
+{
+  "job_id": "71d83c4f-ee3f-45b7-b8f9-11646f32aae0",
+  "mode": "enrich-only",
+  "output_dir": "/app/Storage/71d83c4f-ee3f-45b7-b8f9-11646f32aae0/transformed output",
+  "processed_at": "2026-08-11T09:03:34.612213+00:00",
+  "counts": {
+    "dita_files_total": 7,
+    "ditamap_files_total": 6,
+    "topics_reclassified": 6,
+    "issues_fixed_by_zone1": 0,
+    "issues_fixed_by_ai": 9,
+    "issues_remaining": 2,
+    "ai_obligations_missed": 0,
+    "new_issues_by_ai": 0,
+    "pending_suggestions": 2,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 71,
+    "attribute_mapping_success_pct": 100,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 2,
+      "total": 2,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 1,
+    "ul": 7,
+    "table": 2,
+    "image": 0,
+    "crosslink": 0,
+    "hyperlink": 0,
+    "concept": 4,
+    "task": 0,
+    "reference": 0,
+    "topic": 3
+  },
+  "enrichment_summary": [
+    {
+      "file": "approval/approval.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "inspection_supervisor_responsibilities.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "procedure/procedure.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "purpose/purpose.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/document_classification.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/reference.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "revision_history/revision_history.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "revision_history/revision_history.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "approval/approval.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 25
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 7,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "category_counts": {}
+    },
+    "issues": []
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "inspection_supervisor_responsibilities.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "purpose/purpose.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "revision_history/revision_history.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "revision_history/revision_history.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/document_classification.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/reference.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "approval/approval.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "approval/approval.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "procedure/procedure.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [],
+    "new_issues_introduced_by_ai": [],
+    "summary": {
+      "pre_enrichment_issue_count": 11,
+      "post_enrichment_issue_count": 2,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 0,
+      "fixed_by_ai_count": 9,
+      "remaining_count": 2,
+      "ai_obligations_missed_count": 0,
+      "new_issues_count": 0
+    }
+  },
+  "ai_quality_review": {
+    "layer5": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer6": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "approval/approval.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Approval' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "inspection_supervisor_responsibilities.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Inspection Supervisor Responsibilities' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 17
+        },
+        {
+          "severity": "WARNING",
+          "file": "procedure/procedure.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Procedure' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "purpose/purpose.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Purpose' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/document_classification.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Document Classification' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 19
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/reference.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Reference' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "revision_history/revision_history.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Revision History' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        }
+      ],
+      "shortdesc_issues": [],
+      "recommendations": [
+        "7 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 7,
+        "valid_files": 7,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "approval.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "inspection_supervisor_responsibilities.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "procedure.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "purpose.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "document_classification.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "reference.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "revision_history.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "approval/approval.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "inspection_supervisor_responsibilities.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "procedure/procedure.dita",
+      "ol": 1,
+      "ul": 4,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "purpose/purpose.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reference/document_classification.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reference/reference.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "revision_history/revision_history.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 7,
+      "files_modified": 0,
+      "files_unchanged": 7,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "approval/approval.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "inspection_supervisor_responsibilities.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "procedure/procedure.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "purpose/purpose.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/document_classification.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/reference.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "revision_history/revision_history.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [],
+    "final_violations": 0,
+    "final_files_with_violations": 0,
+    "final_details": []
+  }
+}

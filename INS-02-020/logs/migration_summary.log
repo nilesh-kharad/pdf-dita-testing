@@ -1,0 +1,36 @@
+================================================================================
+ metR DOCX DocMigrate — MIGRATION SUMMARY REPORT
+================================================================================
+ Source File           : INS-02-020.docx
+ Converter             : DOCX
+ TOTAL Docx Files      : 1
+ TOTAL IMAGES Files    : 0
+ Started               : 2026-08-11 09:02:19 UTC
+ Completed             : 2026-08-11 09:03:29 UTC
+ Duration              : 1m 9s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+STAGE RESULTS
+--------------------------------------------------------------------------------
+ Stage             Status              Warnings   Errors   Detail Log
+--------------------------------------------------------------------------------
+ Upload            SUCCESS             0          0        upload.log
+ Pre-flight        SUCCESS             0          0        preflight.log
+ Transformation    SUCCESS             0          0        transformation.log
+ Post-flight       SUCCESS             0          0        postflight
+ AI Enrichment     SUCCESS             0          0        aienrichment
+--------------------------------------------------------------------------------
+
+OUTPUT SUMMARY
+--------------------------------------------------------------------------------
+ Download file         : INS-02-020.zip
+ ROOT DITA map         : inspection_supervisor_responsibilities.ditamap
+ Topics generated      : 7
+ DITA maps generated   : 6
+ Total suggestions     : 2
+ Total schema warnings : 0
+ Total schema errors   : 0
+--------------------------------------------------------------------------------
+The converted files and reports are ready for further review.
+================================================================================
