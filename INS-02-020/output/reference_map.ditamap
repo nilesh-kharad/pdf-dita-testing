@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="reference_map" xml:lang="en-us">
+   <title>Reference</title>
+   <topicref href="reference/reference.dita"><topicmeta><navtitle>Reference</navtitle></topicmeta></topicref>
+   <topicref href="reference/document_classification.dita"><topicmeta><navtitle>Document Classification</navtitle></topicmeta></topicref>
+</map>

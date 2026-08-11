@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="procedure" xml:lang="en-us">
+   <title>Procedure</title>
+   <shortdesc>The Inspection Supervisor shall be identified in each plant.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Inspection</keyword>
+        <keyword>shall</keyword>
+        <keyword>Supervisor</keyword>
+        <keyword>Personnel</keyword>
+        <keyword>ensure</keyword>
+        <keyword>Procedure</keyword>
+        <indexterm>Inspection</indexterm>
+        <indexterm>shall</indexterm>
+        <indexterm>Supervisor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>    <ol>
+    <li><p>The Inspection Supervisor shall be identified in each plant.</p>
+      <ul>
+    <li>Accountable for the personnel who perform tasks on inspection equipment.</li>
+    <li>Facilitates planning, coordination, execution, documentation, communication, and continuous improvement of the inspection process in the plant.</li>
+    <li>The Inspection Supervisors’ responsibilities may or may not all be fulfilled by one individual, but each responsibility shall have a specific owner assigned.</li>
+    <li>Inspection related tasks may cross departments, such as job change, maintenance, production, and quality. In such a case, each department must have a nominated person that is accountable for all inspection related tasks. The person responsible for each task must be clearly documented, either in a job description or another format.</li>
+    <li>It is recommended to have one person named in the role of Inspection Supervisor for all inspection related responsibilities in the plant.</li>
+    </ul></li>
+    <li><p>The Inspection Plant Network Leader shall be identified in each plant.</p>
+      <ul>
+    <li>Ensures responsibilities are understood as specified in Procedure MOE-02-043 Plant Network Leader Roles and Responsibilities.</li>
+    </ul></li>
+    <li>The Backup Inspection Plant Network Leader shall be identified in each plant.</li>
+    <li>The Inspection Supervisor shall verify all Inspection Personnel are in compliance with all safety requirements according to Procedure INS-02-001 Inspection Safety.</li>
+    <li>The Inspection Supervisor shall ensure all Inspection Personnel are properly trained for their specific responsibilities according to Procedure INS-02-010 Inspection Personnel Training.</li>
+    <li><p>The Inspection Supervisor shall ensure Inspection Personnel are following established requirements for the following</p>
+      <ul>
+    <li>INS-02-030 Inspection Device Setup</li>
+    <li>INS-02-050 Inspection Maintenance</li>
+    <li>INS-02-070 Inspection Machine Container Handling</li>
+    </ul></li>
+    <li>The Inspection Supervisor shall be responsible for ensuring the plant is equipped properly and running at proper speeds in accordance with Procedure INS-02-080 Installed Inspection Equipment</li>
+    <li>The Inspection Supervisor shall ensure all Inspection Personnel are equipped with the proper tools to perform each task.</li>
+    <li>The Inspection Supervisor shall own the inspection process and implement improvements.</li>
+    <li>The Inspection Supervisor shall monitor Production Information Systems for machine performance and ensure issues are addressed.</li>
+    <li>The Inspection Supervisor shall ensure job history, settings, and operations meet the quality and operational requirements.</li>
+    <li>The Inspection Supervisor shall ensure adequate and correct spare equipment is available.</li>
+    <li>The Inspection Supervisor shall ensure adequate job change parts for all jobs on the schedule are available.</li>
+    <li>The Inspection Supervisor shall monitor the results of the challenge sample operation and ensure corrective actions are addressed.</li>
+    <li><p>The Inspection Supervisor shall maintain good communication and teamwork with Inspection Personnel and all departments.</p>
+      <ul>
+    <li>Inspection performance with Production and Maintenance Personnel</li>
+    <li>Maintenance activities with Production Personnel</li>
+    <li>Quality performance with Plant Quality Personnel</li>
+    <li>M&amp;E performance with Plant Controller</li>
+    <li>Production plan and Job Change Strategy with Job Change Personnel</li>
+    <li>Training plan with Human Resources Personnel</li>
+    </ul></li>
+    <li>The Inspection Supervisor shall ensure proper housekeeping tasks are being performed regularly in all inspection areas, including workshop area(s).</li>
+    </ol></conbody>
+</concept>

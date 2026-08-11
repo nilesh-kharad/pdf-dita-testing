@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="inspection_supervisor_responsibilities" xml:lang="en-us">
+   <title>Inspection Supervisor Responsibilities</title>
+   <shortdesc>2019-09-25</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Inspection</keyword>
+        <keyword>Supervisor</keyword>
+        <keyword>Responsibilities</keyword>
+        <indexterm>Inspection</indexterm>
+        <indexterm>Supervisor</indexterm>
+        <indexterm>Responsibilities</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>2019-09-25</p>
+   </conbody>
+</concept>

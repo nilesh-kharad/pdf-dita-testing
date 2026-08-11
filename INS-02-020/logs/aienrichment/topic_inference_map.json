@@ -1,0 +1,271 @@
+{
+  "Approval": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 31
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Approval",
+        "Global",
+        "America",
+        "Sanctioning",
+        "Representatives",
+        "Team",
+        "Region",
+        "Representative",
+        "Asia",
+        "Pacific",
+        "Finbarr",
+        "Shea"
+      ],
+      "compact_excerpt": "Approval Sanctioning Representatives of the Global Team Region Representative Asia Pacific Finbarr O\u2019Shea Europe Jerzy Puk Latin America Juan Franco Mexico Yigael Hernandez North America David Gladwin Global Operations Bob Morin"
+    },
+    "classified_at": 1786438693.511748
+  },
+  "Inspection Supervisor Responsibilities": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.143,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Inspection",
+        "Supervisor",
+        "Responsibilities"
+      ],
+      "compact_excerpt": "Inspection Supervisor Responsibilities 2019-09-25"
+    },
+    "classified_at": 1786438693.5162566
+  },
+  "Procedure": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.286,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 13,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 446
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Inspection",
+        "shall",
+        "Supervisor",
+        "Personnel",
+        "ensure",
+        "Procedure",
+        "each",
+        "plant",
+        "inspection",
+        "INS",
+        "Plant",
+        "tasks"
+      ],
+      "compact_excerpt": "Procedure The Inspection Supervisor shall be identified in each plant. Accountable for the personnel who perform tasks on inspection equipment. Facilitates planning, coordination, execution, documentation, communication, and continuous improvement of the inspection process in the plant. The Inspection Supervisors\u2019 responsibilities may or may not all be fulfilled by one individual, but each respons"
+    },
+    "classified_at": 1786438693.5231006
+  },
+  "Purpose": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.429,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Purpose",
+        "define",
+        "specific",
+        "roles",
+        "responsibilities",
+        "tasks",
+        "Inspection",
+        "Supervisor",
+        "plants"
+      ],
+      "compact_excerpt": "Purpose To define the specific roles, responsibilities, and tasks of the Inspection Supervisor in all O-I plants."
+    },
+    "classified_at": 1786438693.5276704
+  },
+  "Document Classification": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.571,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Document",
+        "Classification",
+        "Organization",
+        "Training",
+        "Fundamentals",
+        "INS"
+      ],
+      "compact_excerpt": "Document Classification Organization and Training Fundamentals: INS- 313"
+    },
+    "classified_at": 1786438693.5322886
+  },
+  "Reference": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.714,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 30
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "INS",
+        "Inspection",
+        "Reference",
+        "MOE",
+        "Plant",
+        "Network",
+        "Leader",
+        "Roles",
+        "Responsibilities",
+        "Safety",
+        "Personnel",
+        "Training"
+      ],
+      "compact_excerpt": "Reference MOE-02-043Plant Network Leader Roles and Responsibilities INS-02-001 Inspection Safety INS-02-010 Inspection Personnel Training INS-02-030 Inspection Device Setup INS-02-050 Inspection Maintenance INS-02-070 Inspection Machine Container Handling INS-02-080 Installed Inspection Equipment"
+    },
+    "classified_at": 1786438693.536704
+  },
+  "Revision History": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.857,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 67
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Revision",
+        "History",
+        "Inspection",
+        "Leader",
+        "Approved",
+        "Bob",
+        "Morin",
+        "Global",
+        "Network",
+        "Updated",
+        "Original",
+        "Issue"
+      ],
+      "compact_excerpt": "Revision History 2015-04-17 Original Issue 2015-10-13 Approved by Bob Morin, Global Inspection Discipline Leader Added Inspection Supervisor responsibilities and tasks to Section 3.1.C. Revised Sections 3.2 and 3.3 to state that Plant Network Leader and Backup shall be identified in each plant. 2019-09-25 Approved by Bob Morin, Global Inspection Network Leader Updated with the following changes: U"
+    },
+    "classified_at": 1786438693.544861
+  }
+}

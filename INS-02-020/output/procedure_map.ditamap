@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
+<map id="procedure_map" xml:lang="en-us">
+   <title>Procedure</title>
+   <topicref href="procedure/procedure.dita"><topicmeta><navtitle>Procedure</navtitle></topicmeta></topicref>
+</map>

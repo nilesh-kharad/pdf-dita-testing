@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="revision_history" xml:lang="en-us">
+   <title>Revision History</title>
+   <shortdesc>2015-04-17 Original Issue 2015-10-13 Approved by Bob Morin, Global Inspection Discipline Leader Added Inspection Supervisor</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Inspection</keyword>
+        <keyword>Leader</keyword>
+        <keyword>Revision</keyword>
+        <keyword>History</keyword>
+        <keyword>Approved</keyword>
+        <keyword>Morin</keyword>
+        <indexterm>Inspection</indexterm>
+        <indexterm>Leader</indexterm>
+        <indexterm>Revision</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>2015-04-17</entry>
+                     <entry>Original Issue</entry>
+                  </row>
+                  <row>
+                     <entry>2015-10-13</entry>
+                     <entry>Approved by Bob Morin, Global Inspection Discipline Leader Added Inspection Supervisor responsibilities and tasks to Section 3.1.C. Revised Sections 3.2 and 3.3 to state that Plant Network Leader and Backup shall be identified in each plant.</entry>
+                  </row>
+                  <row>
+                     <entry>2019-09-25</entry>
+                     <entry>Approved by Bob Morin, Global Inspection Network Leader Updated with the following changes: Updated References for Procedure GQS-02-054 which has been changed to MOE-02-043.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></conbody>
+</concept>

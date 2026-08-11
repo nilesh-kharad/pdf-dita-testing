@@ -1,0 +1,124 @@
+================================================================================
+ metR DOCX DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : INS-02-020.docx
+ Files Converted       : 1
+ Topics Generated      : 7
+ DITA Maps Generated   : 6
+ Started               : 2026-08-11 08:57:41 UTC
+ Completed             : 2026-08-11 08:57:42 UTC
+ Duration              : 1s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-11T08:57:41.878502+00:00] conversion_started working.
+[2026-08-11T08:57:41.901140+00:00] ConversionService class is running.
+[2026-08-11T08:57:41.901723+00:00] transformation_started working on input source
+[2026-08-11T08:57:41.949808+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-08-11T08:57:41.949920+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-08-11T08:57:41.950029+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-08-11T08:57:41.950070+00:00] toc_detection Document analysis: No Table of Contents found.
+[2026-08-11T08:57:41.996839+00:00] PipelineOrchestrator Starting conversion pipeline for 'INS-02-020.docx'.
+[2026-08-11T08:57:41.996961+00:00] DocxToHtmlProcessor Converting 'INS-02-020.docx' from DOCX to HTML.
+[2026-08-11T08:57:41.997006+00:00] step_docx_to_html_started Step 1/7: Converting 'INS-02-020.docx' from DOCX to HTML.
+[2026-08-11T08:57:42.042329+00:00] DocxToHtmlProcessor Opening DOCX archive: 'INS-02-020.docx'.
+[2026-08-11T08:57:42.042699+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-08-11T08:57:42.042780+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-08-11T08:57:42.043109+00:00] DocxToHtmlProcessor Extracted 9 relationship(s).
+[2026-08-11T08:57:42.043175+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-08-11T08:57:42.045463+00:00] DocxToHtmlProcessor Copying 0 media file(s).
+[2026-08-11T08:57:42.045603+00:00] DocxToHtmlProcessor Media copy complete -- 0 file(s) exported.
+[2026-08-11T08:57:42.045700+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-08-11T08:57:42.046247+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-08-11T08:57:42.052547+00:00] DocxToHtmlProcessor Numbering map built with 221 numId(s).
+[2026-08-11T08:57:42.052849+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-08-11T08:57:42.053093+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-08-11T08:57:42.053921+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'INS-02-020.docx'.
+[2026-08-11T08:57:42.055710+00:00] DocxToHtmlProcessor Document body processed — 17 HTML block(s) generated for 'INS-02-020.docx'.
+[2026-08-11T08:57:42.055869+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-08-11T08:57:42.056111+00:00] step_docx_to_html_complete DOCX-to-HTML conversion complete: 0 image(s) extracted.
+[2026-08-11T08:57:42.084055+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-08-11T08:57:42.084162+00:00] step_normalize_html_started Step 2/7: Normalizing HTML for DITA conversion.
+[2026-08-11T08:57:42.113698+00:00] helper_port.py class is running.
+[2026-08-11T08:57:42.121441+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-08-11T08:57:42.121672+00:00] step_normalize_html_complete HTML normalization complete.
+[2026-08-11T08:57:42.154829+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-08-11T08:57:42.154939+00:00] step_split_topics_started Step 3/7: Splitting document into topics.
+[2026-08-11T08:57:42.184631+00:00] TopicSplitter Found 7 topics.
+[2026-08-11T08:57:42.184742+00:00] topics_split Document split into 7 topic(s).
+[2026-08-11T08:57:42.227399+00:00] TopicWriter Writing topics to .dita files.
+[2026-08-11T08:57:42.227516+00:00] step_write_topics_started Step 4/7: Writing 7 topic(s) to DITA files.
+[2026-08-11T08:57:42.255715+00:00] TopicWriter Starting to write 7 topics.
+[2026-08-11T08:57:42.256123+00:00] TopicWriter Building topic tree hierarchy.
+[2026-08-11T08:57:42.256309+00:00] TopicWriter Building topic tree from 7 flat topic(s).
+[2026-08-11T08:57:42.256480+00:00] TopicWriter Topic tree built — 6 root node(s).
+[2026-08-11T08:57:42.256652+00:00] TopicWriter Assigning output paths to all topics.
+[2026-08-11T08:57:42.256757+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-11T08:57:42.256958+00:00] TopicWriter Assigned path for topic 'Inspection Supervisor Responsibilities': 'inspection_supervisor_responsibilities.dita'.
+[2026-08-11T08:57:42.257674+00:00] TopicWriter Assigned path for topic 'Purpose': 'purpose.dita'.
+[2026-08-11T08:57:42.257990+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-11T08:57:42.258055+00:00] TopicWriter Assigned path for topic 'Document Classification': 'document_classification.dita'.
+[2026-08-11T08:57:42.258090+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-11T08:57:42.258136+00:00] TopicWriter Assigned path for topic 'Reference': 'reference.dita'.
+[2026-08-11T08:57:42.260774+00:00] TopicWriter Assigned path for topic 'Procedure': 'procedure.dita'.
+[2026-08-11T08:57:42.261127+00:00] TopicWriter Assigned path for topic 'Approval': 'approval.dita'.
+[2026-08-11T08:57:42.261386+00:00] TopicWriter Assigned path for topic 'Revision History': 'revision_history.dita'.
+[2026-08-11T08:57:42.261443+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-11T08:57:42.261604+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-08-11T08:57:42.261656+00:00] TopicWriter Writing topic 'Inspection Supervisor Responsibilities' to .dita file.
+[2026-08-11T08:57:42.261708+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.261863+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.261935+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.262934+00:00] TopicWriter Topic 'inspection_supervisor_responsibilities.dita' written successfully.
+[2026-08-11T08:57:42.263071+00:00] TopicWriter Writing topic 'Purpose' to .dita file.
+[2026-08-11T08:57:42.263131+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.263402+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.263503+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.264092+00:00] TopicWriter Topic 'purpose.dita' written successfully.
+[2026-08-11T08:57:42.264147+00:00] TopicWriter Writing topic 'Reference' to .dita file.
+[2026-08-11T08:57:42.264201+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.264424+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.264523+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.265243+00:00] TopicWriter Topic 'reference.dita' written successfully.
+[2026-08-11T08:57:42.265328+00:00] TopicWriter Writing topic 'Document Classification' to .dita file.
+[2026-08-11T08:57:42.265366+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.265706+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.265849+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.266233+00:00] TopicWriter Topic 'document_classification.dita' written successfully.
+[2026-08-11T08:57:42.266290+00:00] TopicWriter Writing topic 'Procedure' to .dita file.
+[2026-08-11T08:57:42.266341+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.266941+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.267082+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.267171+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-11T08:57:42.267663+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-11T08:57:42.267841+00:00] topic_structure Style-based step/substep structure detected — emitting DTD-compliant <step><substeps><substep> hierarchy.
+[2026-08-11T08:57:42.268275+00:00] topic_structure <steps> block built with 16 step(s) (style-based mode).
+[2026-08-11T08:57:42.268347+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-11T08:57:42.268384+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-11T08:57:42.276001+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-11T08:57:42.277140+00:00] TopicWriter Topic 'procedure.dita' written successfully.
+[2026-08-11T08:57:42.277227+00:00] TopicWriter Writing topic 'Approval' to .dita file.
+[2026-08-11T08:57:42.277280+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.277755+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.278083+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.278194+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-11T08:57:42.278886+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-11T08:57:42.279539+00:00] TopicWriter Topic 'approval.dita' written successfully.
+[2026-08-11T08:57:42.279637+00:00] TopicWriter Writing topic 'Revision History' to .dita file.
+[2026-08-11T08:57:42.279709+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-11T08:57:42.280157+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-11T08:57:42.280579+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-11T08:57:42.280675+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-11T08:57:42.281183+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-11T08:57:42.282040+00:00] TopicWriter Topic 'revision_history.dita' written successfully.
+[2026-08-11T08:57:42.282112+00:00] TopicWriter All 7 topic file(s) written successfully.
+[2026-08-11T08:57:42.282183+00:00] topics_written DTD classification and topic writing complete: 7 DITA file(s) generated.
+[2026-08-11T08:57:42.319040+00:00] TopicWriter Finished writing .dita files.
+[2026-08-11T08:57:42.319196+00:00] step_write_topics_complete DITA topic files written: 7 file(s) generated.
+[2026-08-11T08:57:42.350650+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-08-11T08:57:42.350811+00:00] step_ditamap_started Step 5/7: Generating DITAMAP structure.
+[2026-08-11T08:57:42.383782+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-08-11T08:57:42.383883+00:00] step_ditamap_complete DITAMAP generation complete: 6 map file(s) created.
+
+ Success: Content transformation completed successfully.
+================================================================================

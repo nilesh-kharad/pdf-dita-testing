@@ -1,0 +1,71 @@
+{
+  "job_id": "048e8765-9caa-4a51-a5f4-4790c23a6af4",
+  "output_dir": "C:\\Users\\Metapercept\\Desktop\\Nilesh\\New-MetR\\metR-Converter-DOCX\\Storage\\048e8765-9caa-4a51-a5f4-4790c23a6af4\\transformed output",
+  "generated_at": "2026-08-11T08:58:15.995355+00:00",
+  "suggestions": [
+    {
+      "id": "a0ed008e-d5ae-42ae-8319-68b7b31ec4f8",
+      "file": "approval/approval.dita",
+      "line": 25,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <conbody><p>Sanctioning Representatives of the Global Team</p>",
+        "<table frame=\"all\" colsep=\"1\" rowsep=\"1\">",
+        "            <tgroup cols=\"2\">",
+        "               <colspec colname=\"c1\"/>",
+        "               <colspec colname=\"c2\"/>",
+        "               <tbody>",
+        "                  <row>",
+        "                     <entry>"
+      ],
+      "affected_lines": [
+        25
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-11T08:58:15.900300+00:00"
+    },
+    {
+      "id": "42f774c9-fe07-42c8-9bb0-72aff50285d7",
+      "file": "revision_history/revision_history.dita",
+      "line": 24,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <conbody><table frame=\"all\" colsep=\"1\" rowsep=\"1\">",
+        "            <tgroup cols=\"2\">",
+        "               <colspec colname=\"c1\"/>",
+        "               <colspec colname=\"c2\"/>",
+        "               <tbody>",
+        "                  <row>",
+        "                     <entry>2015-04-17</entry>"
+      ],
+      "affected_lines": [
+        24
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-11T08:58:15.949731+00:00"
+    }
+  ],
+  "pending_count": 2,
+  "accepted_count": 0,
+  "edited_count": 0,
+  "dismissed_count": 0
+}
